@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="asserts/css/normalize.css" rel="stylesheet">
+    <style>
+        body > section {
+            position: absolute;
+            height: 50vh;
+            width: 50vw;
+        }
+
+        body > section:nth-child(1) {
+            top: 0;
+            left: 0;
+            background-color: red;
+        }
+
+        body > section:nth-child(2) {
+            top: 0;
+            right: 0;
+            background-color: green;
+        }
+
+        body > section:nth-child(3) {
+            bottom: 0;
+            left: 0;
+            background-color: orange;
+        }
+
+        body > section:nth-child(4) {
+            bottom: 0;
+            right: 0;
+            background-color: deeppink;
+        }
+
+        /*center content of squared*/
+        body section > section {
+            position: absolute;
+            width: 10em;
+            height: 10em;
+            border-radius: 10em;
+            background-color: white;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        body section > section > div {
+            position: absolute;
+            height: 4em;
+            width: 4em;
+            background-color: red;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        /*center content*/
+        body > div {
+            position: absolute;
+            height: 10em;
+            width: 10em;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background-color: white;
+        }
+
+        body > div > div {
+            position: absolute;
+            height: 5em;
+            width: 5em;
+            border-radius: 5em;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background-color: red;
+        }
+
+        /*other circles*/
+        body > section:nth-child(5) {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        body > section:nth-child(5) > div {
+            position: absolute;
+            background-color: white;
+            width: 10em;
+            height: 10em;
+        }
+
+        body > section:nth-child(5) > div:nth-child(1) {
+            border-bottom-right-radius: 10em;
+            left: 0;
+            top: 0;
+        }
+
+        body > section:nth-child(5) > div:nth-child(2) {
+            border-bottom-left-radius: 10em;
+            right: 0;
+            top: 0;
+        }
+
+        body > section:nth-child(5) > div:nth-child(3) {
+            border-top-left-radius: 10em;
+            right: 0;
+            bottom: 0;
+        }
+
+        body > section:nth-child(5) > div:nth-child(4) {
+            border-top-right-radius: 10em;
+            left: 0;
+            bottom: 0;
+        }
+
+        body > section:nth-child(5) > div:nth-child(5) {
+            border-top-right-radius: 108px;
+            border-top-left-radius: 108px;
+            height: 100px;
+            width: 200px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        body > section:nth-child(5) > div:nth-child(6) {
+            border-bottom-right-radius: 108px;
+            border-bottom-left-radius: 108px;
+            height: 100px;
+            width: 200px;
+            top: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+
+<section>
+    <section>
+        <div></div>
+    </section>
+</section>
+<section>
+    <section>
+        <div></div>
+    </section>
+</section>
+<section>
+    <section>
+        <div></div>
+    </section>
+</section>
+<section>
+    <section>
+        <div></div>
+    </section>
+</section>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+<div>
+    <div></div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
