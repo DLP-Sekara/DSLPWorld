@@ -7,22 +7,86 @@
     <meta content="First Web" name="description">
     <meta content="width=device-width initial-scale=1" name="viewport">
     <meta content="green" name="theme-color">
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <style>
+        /*header css*/
+        header{
+            position: relative;
+            top: 0;
+            background-color: #161B36;
+            height: 50px;
+        }
+        header>ul{
+            position: absolute;
+            top: 0;
+            height: 20px;
+            right: 30px;
+            list-style: none;
+        }
+        header>ul>li{
+            color: white;
+            display: inline-block;
+            padding: 0 20px 0 20px;
+            font-size: 20px;
+        }
+        header>ul>li:hover{
+            color:aqua;
+            cursor: pointer;
+        }
+        header>h1{
+            font-size: 30px;
+            position: absolute;
+            left: 0;
+            margin: 10px;
+            color: white;
+            cursor: pointer;
+        }
+
+        /*page 1 css*/
+        main>section:nth-child(1){
+            position: relative;
+            background-color: #161B36;
+            height: 590px;
+        }
+        main>section:nth-child(1)>img{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 382px;
+            height: 547px;
+            opacity: 70%;
+        }
+        main>section:nth-child(1)>section:nth-child(2){
+        }
+    </style>
 </head>
 <body>
 
 <header>
-    <nav>
+<!--        <ul>-->
+<!--            <li><dfn id="1">DSLPWorld</dfn></li>-->
+<!--            <li><a href="#1">Home</a></li>-->
+<!--            <li><a href="#2">About Me</a></li>-->
+<!--            <li><a href="#3">Education</a></li>-->
+<!--            <li><a href="#4">Skills</a></li>-->
+<!--            <li><a href="#5">Projects</a></li>-->
+<!--            <li><a href="#6">Services</a></li>-->
+<!--            <li><a href="#7">Contact</a></li>-->
+<!--        </ul>-->
+    <h1>DSLPWorld</h1>
+    <ul>
+        <li>Home</li>
+        <li>About Me</li>
+        <li>Education</li>
+        <li>Skills</li>
+        <li>Projects</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul>
 
-        <h2><dfn id="1">DSLPWorld</dfn></h2>
-        <h2><a href="#1">Home</a></h2>
-        <h2><a href="#2">About Me</a></h2>
-        <h2><a href="#3">Education</a></h2>
-        <h2><a href="#4">Skills</a></h2>
-        <h2><a href="#5">Projects</a></h2>
-        <h2><a href="#6">Services</a></h2>
-        <h2><a href="#7">Contact</a></h2>
-
-    </nav>
 </header>
 
 <main>
@@ -37,9 +101,10 @@
             <p>JAVA DEVELOPER</p>
             <button>View Works</button>
         </section>
-        <section>
+            <section></section>
+            <section></section>
             <img alt="" height="547" src="assets/images/my%20pic%201.png" width="382">
-        </section>
+
     </section>
 
 
