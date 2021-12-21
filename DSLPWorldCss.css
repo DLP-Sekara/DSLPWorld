@@ -1,0 +1,56 @@
+/*header css*/
+body{
+    position: relative;
+}
+header{
+    position: relative;
+    width :100%;
+    top: 0;
+    background-color: #161B36;
+    height: 50px;
+}
+header>ul{
+    position: absolute;
+    top: 0;
+    height: 20px;
+    right: 30px;
+    list-style: none;
+}
+header>ul>li{
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    font-size: 20px;
+}
+header>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+header>ul>li>a:hover{
+    color:aqua;
+    cursor: pointer;
+}
+header>h1{
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+/*page 1 css*/
+main>section:nth-child(1){
+    position: relative;
+    background-color: #161B36;
+    height: 590px;
+}
+main>section:nth-child(1)>img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 382px;
+    height: 547px;
+    opacity: 70%;
+}
+main>section:nth-child(1)>section:nth-child(2){
+}
