@@ -125,7 +125,8 @@ nav > h1:nth-child(2) {
     height: 590px;
     top: 15px;
 }
-#pageTwoName{
+
+#pageTwoName {
     font-size: 30px;
     font-weight: bold;
     color: black;
@@ -135,14 +136,17 @@ nav > h1:nth-child(2) {
     top: 70px;
     position: relative;
     font-family: sans-serif;
+    font-style: normal;
 }
-#myImg2{
+
+#myImg2 {
     border-style: none;
     position: relative;
     bottom: 23px;
     left: 100px;
 }
-#aboutMeSection1{
+
+#aboutMeSection1 {
     position: relative;
     width: 706px;
     top: -450px;
@@ -152,7 +156,8 @@ nav > h1:nth-child(2) {
     background-color: #161B36;
 
 }
-#aboutMeSection2{
+
+#aboutMeSection2 {
     position: relative;
     width: 706px;
     top: -450px;
@@ -164,18 +169,21 @@ nav > h1:nth-child(2) {
     color: white;
     font-family: sans-serif;
 }
-#aboutMeText{
+
+#aboutMeText {
     padding: 10px;
     font-size: 18px;
     text-align: center;
     color: white;
     font-family: sans-serif;
 }
-#aboutMeSection2>dl{
+
+#aboutMeSection2 > dl {
     position: relative;
-   top: 40px;
+    top: 40px;
 }
-#aboutMeSection2>dl>dt{
+
+#aboutMeSection2 > dl > dt {
     position: relative;
     left: 40px;
     font-size: 18px;
@@ -183,14 +191,16 @@ nav > h1:nth-child(2) {
     font-family: sans-serif;
     padding-bottom: 10px;
 }
-#aboutMeSection2>dl>dd{
+
+#aboutMeSection2 > dl > dd {
     position: relative;
     font-size: 18px;
     color: white;
     font-family: sans-serif;
     padding-bottom: 20px;
 }
-#aboutMeSection2>button{
+
+#aboutMeSection2 > button {
     position: relative;
     border: 1px solid #E74C3C;
     color: #E74C3C;
@@ -199,6 +209,7 @@ nav > h1:nth-child(2) {
     left: 450px;
     bottom: 30px;
 }
+
 #icons2 {
     position: absolute;
     font-size: 30px;
@@ -221,4 +232,271 @@ nav > h1:nth-child(2) {
 
 #twitterIcon2 {
     margin-right: 50px;
+}
+
+/*=============================================page 3 css=============================================*/
+.pageThree {
+    position: relative;
+    background-color: #161B36;
+    height: 1300px;
+    top: -15px;
+}
+
+#pageThreeName {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 70px;
+    position: relative;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+#mainLine {
+    position: absolute;
+    background-color: #E74C3C;
+    height: 1000px;
+    width: 8px;
+    top: 170px;
+    align-items: center;
+    left: 50%;
+}
+
+#line1 {
+    position: absolute;
+    background-color: #E74C3C;
+    height: 8px;
+    width: 396px;
+    top: 325px;
+    left: 50%;
+}
+
+#line2 {
+    position: absolute;
+    background-color: #E74C3C;
+    height: 8px;
+    width: 396px;
+    top: 500px;
+    left: 21%;
+}
+
+#line3 {
+    position: absolute;
+    background-color: #E74C3C;
+    height: 8px;
+    width: 396px;
+    top: 680px;
+    left: 50%;
+}
+
+#line4 {
+    position: absolute;
+    background-color: #E74C3C;
+    height: 8px;
+    width: 396px;
+    top: 860px;
+    left: 21%;
+}
+
+#line5 {
+    position: absolute;
+    background-color: #E74C3C;
+    height: 8px;
+    width: 396px;
+    top: 1037px;
+    left: 50%;
+}
+
+#circle1 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    background-color: #E74C3C;
+    top: 315px;
+    right: 252px;
+}
+
+#circle2 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    background-color: #E74C3C;
+    top: 489px;
+    left: 257px;
+}
+
+#circle3 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    background-color: #E74C3C;
+    top: 670px;
+    right: 252px;
+}
+
+#circle4 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    background-color: #E74C3C;
+    top: 850px;
+    left: 257px;
+}
+
+#circle5 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    background-color: #E74C3C;
+    top: 1027px;
+    right: 252px;
+}
+
+.pageThree > figure {
+    position: absolute;
+    display: inline;
+    font-size: 15px;
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+}
+.pageThree > figure>h1 {
+    position: absolute;
+    display: inline;
+    font-size: 15px;
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+}
+/*==============ijse============*/
+#eduIJSE {
+    left: 530px;
+}
+
+#eduIJSE > img {
+    left: 249px;
+    top: 104px;
+    height: 75px;
+    position: relative;
+}
+
+#eduIJSE > figcaption {
+    position: relative;
+    top: 104px;
+    left: 59px;
+}
+
+#eduIJSE > h1 {
+    position: relative;
+    top: 160px;
+    left: -51px;
+    font-size: 17px;
+}
+/*==============IPS============*/
+#eduFUTUREips {
+    left: 330px;
+}
+
+#eduFUTUREips > img {
+    left: 94px;
+    top: 282px;
+    height: 122px;
+    position: relative;
+}
+
+#eduFUTUREips > figcaption {
+    position: relative;
+    top: 141px;
+    padding-bottom: 10px;
+    left: -209px;
+}
+
+#eduFUTUREips > h1 {
+    position: relative;
+    top: 285px;
+    left: 142px;
+    font-size: 17px;
+}
+/*==============Ginarathana============*/
+#eduGINARATHANA {
+    left: 330px;
+}
+
+#eduGINARATHANA > img {
+    left: 403px;
+    top: 444px;
+    height: 96px;
+    position: relative;
+}
+
+#eduGINARATHANA > figcaption {
+    position: relative;
+    top: 428px;
+    padding-bottom: 10px;
+    right: -326px;
+}
+
+#eduGINARATHANA > h1 {
+    position: relative;
+    top: 473px;
+    right: -326px;
+    font-size: 17px;
+}
+/*==============Ginarathana============*/
+#eduDHARMAPALA {
+    left: 330px;
+}
+
+#eduDHARMAPALA > img {
+    left: 84px;
+    top: 646px;
+    height: 114px;
+    position: relative;
+}
+
+#eduDHARMAPALA > figcaption {
+    position: relative;
+    top: 548px;
+    padding-bottom: 10px;
+    right: 228px;
+}
+
+#eduDHARMAPALA > h1 {
+    position: relative;
+    top: 653px;
+    right: -120px;
+    font-size: 17px;
+}
+/*==============Ginarathana============*/
+#eduPIYARATHANA {
+    left: 330px;
+}
+
+#eduPIYARATHANA > img {
+    left: 552px;
+    top: 812px;
+    height: 126px;
+    position: relative;
+}
+
+#eduPIYARATHANA > figcaption {
+    position: relative;
+    top: 692px;
+    padding-bottom: 10px;
+    right: -231px;
+}
+
+#eduPIYARATHANA > h1 {
+    position: relative;
+    top: 818px;
+    right: -214px;
+    font-size: 17px;
 }
