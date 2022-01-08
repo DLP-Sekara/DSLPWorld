@@ -40,7 +40,7 @@ nav > ul > li > a:hover {
 nav > h1 {
     font-size: 33px;
     position: absolute;
-    left: 0;
+    left: 10px;
     font-weight: bold;
     margin: 7px;
     cursor: pointer;
@@ -53,7 +53,7 @@ nav > h1:nth-child(1) {
 
 nav > h1:nth-child(2) {
     color: white;
-    left: 33px;
+    left: 60px;
 }
 
 /*=============================================page 1 css=============================================*/
@@ -506,6 +506,7 @@ nav > h1:nth-child(2) {
     right: -214px;
     font-size: 17px;
 }
+
 /*=============================================page 4 css=============================================*/
 .pageFour {
     position: relative;
@@ -527,7 +528,7 @@ nav > h1:nth-child(2) {
     font-style: normal;
 }
 
-.pageFour>section{
+.pageFour > section {
     background-color: #161B36;
     position: relative;
     font-size: 15px;
@@ -535,12 +536,14 @@ nav > h1:nth-child(2) {
     left: 175px;
     font-family: sans-serif;
 }
-#skillDescription{
+
+#skillDescription {
     width: 1000px;
     height: 196px;
     top: 30px;
 }
-#skillDescription>pre{
+
+#skillDescription > pre {
     top: 20px;
     position: relative;
     font-size: 17px;
@@ -548,12 +551,14 @@ nav > h1:nth-child(2) {
     color: white;
     font-family: sans-serif;
 }
-#skillList{
+
+#skillList {
     width: 1000px;
     height: 255px;
     top: 30px;
 }
-#skillList>ul>li{
+
+#skillList > ul > li {
     position: relative;
     top: -4px;
     display: inline;
@@ -563,58 +568,171 @@ nav > h1:nth-child(2) {
     color: white;
     text-decoration: none;
 }
-#skillList>ul>li>i{
+
+#skillList > ul > li > i {
     margin-top: 8px;
 
 }
-#skillList>ul>div{
+
+#skillList > ul > div {
     position: relative;
     background-color: white;
     width: 500px;
     height: 7px;
     left: 250px;
 }
-#scale1{
-   top: -17px;
-}
-#scale2{
-    top:-20px;
-}
-#scale3{
-    top:-20px;
-}
-#scale4{
-    top:-20px;
-}
-#scale5{
-    top:-20px;
-}
-#scale6{
-    top:-20px;
+
+#scale1 {
+    top: -17px;
 }
 
-#skillList>ul>div>div{
+#scale2 {
+    top: -20px;
+}
+
+#scale3 {
+    top: -20px;
+}
+
+#scale4 {
+    top: -20px;
+}
+
+#scale5 {
+    top: -20px;
+}
+
+#scale6 {
+    top: -20px;
+}
+
+#skillList > ul > div > div {
     position: relative;
     background-color: #E74C3C;
 
     height: 7px;
     left: 0;
 }
-#parameter1{
+
+#parameter1 {
     width: 200px;
 }
-#parameter2{
+
+#parameter2 {
     width: 250px;
 }
-#parameter3{
+
+#parameter3 {
     width: 150px;
 }
-#parameter4{
+
+#parameter4 {
     width: 300px;
 }
-#parameter5{
+
+#parameter5 {
     width: 280px;
 }
-#parameter6{
+
+#parameter6 {
     width: 100px;
+}
+/*=============================================page 5 css=============================================*/
+.pageFive {
+    position: relative;
+    background-color: #161B36;
+    height: 1073px;
+    top: -73px;
+}
+
+#pageFiveName {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 40px;
+    position: relative;
+    font-family: sans-serif;
+    font-style: normal;
+}
+#project_assignment{
+    background-color: #242C54;
+    position: relative;
+    left: 175px;
+    width: 970px;
+    height: 286px;
+    top: 30px;
+}
+#TEAMMATES_name{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 160px;
+    position: relative;
+    font-family: sans-serif;
+    font-style: normal;
+}
+#teammates>figure{
+    position: relative;
+    display: inline-block;
+    width: 313px;
+    height: 387px;
+    top: 175px;
+    background-color: #242C54;
+}
+#teammates>figure:nth-child(1){
+    left: 20px;
+}
+#teammates>figure:nth-child(2){
+    left:82px;
+}
+#teammates>figure:nth-child(3){
+    right: -135px;
+}
+#teammates>figure>img{
+    position: absolute;
+    display: inline;
+    top: 43px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#prabodPic{
+    width: 200px;
+    height: 263px;
+}
+#udeshPic{
+    width: 253px;
+    height: 256px;
+}
+#heshanPic{
+    width: 234px;
+    height: 269px;
+}
+#teammates>figure>figcaption{
+    position: relative;
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+#prabodInfo{
+    position: absolute;
+    top: 303px;
+    left: -209px;
+}
+#udeshInfo{
+    position: absolute;
+    top: 303px;
+    left: -197px;
+}
+#heshanInfo{
+    position: absolute;
+    top: 303px;
+    left: -174px;
 }
