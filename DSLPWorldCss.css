@@ -118,34 +118,107 @@ nav > h1:nth-child(2) {
     letter-spacing: 3px;
 }
 
-#button_1{
-
-    width: 120px;
-    height: 30px;
-
-    border-radius: 3px;
-    display: inline;
-    position: absolute;
-    top: 334px;
-    left: 120px;
-    border: 2px solid white;
+/*=============================================page 2 css=============================================*/
+.pageTwo {
+    position: relative;
+    background-color: #ECF0F1;
+    height: 590px;
+    top: 15px;
+}
+#pageTwoName{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 70px;
+    position: relative;
+    font-family: sans-serif;
+}
+#myImg2{
+    border-style: none;
+    position: relative;
+    bottom: 23px;
+    left: 100px;
+}
+#aboutMeSection1{
+    position: relative;
+    width: 706px;
+    top: -450px;
+    bottom: 101px;
+    left: 550px;
+    height: 196px;
+    background-color: #161B36;
 
 }
-#button_1>p{
-    font-size: 20px;
+#aboutMeSection2{
+    position: relative;
+    width: 706px;
+    top: -450px;
+    bottom: 101px;
+    left: 550px;
+    height: 196px;
+    background-color: #161B36;
+    font-size: 18px;
     color: white;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: sans-serif;
+}
+#aboutMeText{
+    padding: 10px;
+    font-size: 18px;
     text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+#aboutMeSection2>dl{
+    position: relative;
+   top: 40px;
+}
+#aboutMeSection2>dl>dt{
+    position: relative;
+    left: 40px;
+    font-size: 18px;
+    color: #E74C3C;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+#aboutMeSection2>dl>dd{
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+#aboutMeSection2>button{
+    position: relative;
+    border: 1px solid #E74C3C;
+    color: #E74C3C;
+    background-color: #161B36;
+    height: 40px;
+    left: 450px;
+    bottom: 30px;
+}
+#icons2 {
     position: absolute;
-    left: 5px;
-    margin: 5px;
-
-}
-#button_1:hover{
-    cursor: pointer;
-    border-color: #E74C3C;
-}
-#button_1:hover p{
- color: #E74C3C;
+    font-size: 30px;
+    color: white;
+    top: 50px;
+    left: 372px;
 }
 
+#fbIcon2 {
+    margin-right: 50px;
+}
+
+#instagramIcon2 {
+    margin-right: 50px;
+}
+
+#linkedinIcon2 {
+    margin-right: 50px;
+}
+
+#twitterIcon2 {
+    margin-right: 50px;
+}
