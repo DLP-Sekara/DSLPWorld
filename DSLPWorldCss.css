@@ -368,7 +368,8 @@ nav > h1:nth-child(2) {
     width: 300px;
     font-family: sans-serif;
 }
-.pageThree > figure>h1 {
+
+.pageThree > figure > h1 {
     position: absolute;
     display: inline;
     font-size: 15px;
@@ -376,6 +377,7 @@ nav > h1:nth-child(2) {
     width: 300px;
     font-family: sans-serif;
 }
+
 /*==============ijse============*/
 #eduIJSE {
     left: 530px;
@@ -400,6 +402,7 @@ nav > h1:nth-child(2) {
     left: -51px;
     font-size: 17px;
 }
+
 /*==============IPS============*/
 #eduFUTUREips {
     left: 330px;
@@ -425,6 +428,7 @@ nav > h1:nth-child(2) {
     left: 142px;
     font-size: 17px;
 }
+
 /*==============Ginarathana============*/
 #eduGINARATHANA {
     left: 330px;
@@ -450,6 +454,7 @@ nav > h1:nth-child(2) {
     right: -326px;
     font-size: 17px;
 }
+
 /*==============Ginarathana============*/
 #eduDHARMAPALA {
     left: 330px;
@@ -475,6 +480,7 @@ nav > h1:nth-child(2) {
     right: -120px;
     font-size: 17px;
 }
+
 /*==============Ginarathana============*/
 #eduPIYARATHANA {
     left: 330px;
@@ -499,4 +505,67 @@ nav > h1:nth-child(2) {
     top: 818px;
     right: -214px;
     font-size: 17px;
+}
+/*=============================================page 4 css=============================================*/
+.pageFour {
+    position: relative;
+    background-color: #ECF0F1;
+    height: 590px;
+    top: -44px;
+}
+
+#pageFourName {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 70px;
+    position: relative;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.pageFour>section{
+    background-color: #161B36;
+    position: relative;
+    font-size: 15px;
+    color: white;
+    left: 175px;
+    font-family: sans-serif;
+}
+#skillDescription{
+    width: 1000px;
+    height: 196px;
+    top: 50px;
+}
+#skillDescription>pre{
+    top: 20px;
+    position: relative;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+#skillList{
+    width: 1000px;
+    height: 250px;
+    top: 60px;
+}
+#skillList>ul>li{
+    position: relative;
+    top: -4px;
+    display: block;
+    left: 200px;
+    font-size: 25px;
+    color: white;
+    padding-top: 12px;
+    text-decoration: none;
+}
+#skillList>ul>li>div{
+    position: relative;
+    background-color: white;
+    width: 535px;
+    height: 7px;
 }
