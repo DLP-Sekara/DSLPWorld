@@ -521,7 +521,7 @@ nav > h1:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 70px;
+    top: 40px;
     position: relative;
     font-family: sans-serif;
     font-style: normal;
@@ -538,7 +538,7 @@ nav > h1:nth-child(2) {
 #skillDescription{
     width: 1000px;
     height: 196px;
-    top: 50px;
+    top: 30px;
 }
 #skillDescription>pre{
     top: 20px;
@@ -550,22 +550,71 @@ nav > h1:nth-child(2) {
 }
 #skillList{
     width: 1000px;
-    height: 250px;
-    top: 60px;
+    height: 255px;
+    top: 30px;
 }
 #skillList>ul>li{
     position: relative;
     top: -4px;
-    display: block;
-    left: 200px;
+    display: inline;
+    left: 150px;
     font-size: 25px;
+    margin: 10px;
     color: white;
-    padding-top: 12px;
     text-decoration: none;
 }
-#skillList>ul>li>div{
+#skillList>ul>li>i{
+    margin-top: 8px;
+
+}
+#skillList>ul>div{
     position: relative;
     background-color: white;
-    width: 535px;
+    width: 500px;
     height: 7px;
+    left: 250px;
+}
+#scale1{
+   top: -17px;
+}
+#scale2{
+    top:-20px;
+}
+#scale3{
+    top:-20px;
+}
+#scale4{
+    top:-20px;
+}
+#scale5{
+    top:-20px;
+}
+#scale6{
+    top:-20px;
+}
+
+#skillList>ul>div>div{
+    position: relative;
+    background-color: #E74C3C;
+
+    height: 7px;
+    left: 0;
+}
+#parameter1{
+    width: 200px;
+}
+#parameter2{
+    width: 250px;
+}
+#parameter3{
+    width: 150px;
+}
+#parameter4{
+    width: 300px;
+}
+#parameter5{
+    width: 280px;
+}
+#parameter6{
+    width: 100px;
 }
