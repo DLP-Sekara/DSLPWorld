@@ -637,6 +637,7 @@ nav > h1:nth-child(2) {
 #parameter6 {
     width: 100px;
 }
+
 /*=============================================page 5 css=============================================*/
 .pageFive {
     position: relative;
@@ -657,7 +658,8 @@ nav > h1:nth-child(2) {
     font-family: sans-serif;
     font-style: normal;
 }
-#project_assignment{
+
+#project_assignment {
     background-color: #242C54;
     position: relative;
     left: 175px;
@@ -665,7 +667,8 @@ nav > h1:nth-child(2) {
     height: 286px;
     top: 30px;
 }
-#TEAMMATES_name{
+
+#TEAMMATES_name {
     font-size: 30px;
     font-weight: bold;
     color: white;
@@ -677,7 +680,8 @@ nav > h1:nth-child(2) {
     font-family: sans-serif;
     font-style: normal;
 }
-#teammates>figure{
+
+#teammates > figure {
     position: relative;
     display: inline-block;
     width: 313px;
@@ -685,16 +689,20 @@ nav > h1:nth-child(2) {
     top: 175px;
     background-color: #242C54;
 }
-#teammates>figure:nth-child(1){
+
+#teammates > figure:nth-child(1) {
     left: 20px;
 }
-#teammates>figure:nth-child(2){
-    left:82px;
+
+#teammates > figure:nth-child(2) {
+    left: 82px;
 }
-#teammates>figure:nth-child(3){
+
+#teammates > figure:nth-child(3) {
     right: -135px;
 }
-#teammates>figure>img{
+
+#teammates > figure > img {
     position: absolute;
     display: inline;
     top: 43px;
@@ -702,37 +710,94 @@ nav > h1:nth-child(2) {
     right: 0;
     margin: auto;
 }
-#prabodPic{
+
+#prabodPic {
     width: 200px;
     height: 263px;
 }
-#udeshPic{
+
+#udeshPic {
     width: 253px;
     height: 256px;
 }
-#heshanPic{
+
+#heshanPic {
     width: 234px;
     height: 269px;
 }
-#teammates>figure>figcaption{
+
+#teammates > figure > figcaption {
     position: relative;
     font-size: 22px;
     color: white;
     font-family: sans-serif;
     text-align: center;
 }
-#prabodInfo{
+
+#prabodInfo {
     position: absolute;
     top: 303px;
     left: -209px;
 }
-#udeshInfo{
+
+#udeshInfo {
     position: absolute;
     top: 303px;
     left: -197px;
 }
-#heshanInfo{
+
+#heshanInfo {
     position: absolute;
     top: 303px;
     left: -174px;
+}
+/*=============================================page 6 css=============================================*/
+.pageSix{
+    position: relative;
+    background-color:#ECF0F1;
+    height: 590px;
+    top: -102px;
+}
+#pageSixeName {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 40px;
+    position: relative;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.pageSix>figure{
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    top: 20px;
+    left: 160px;
+    background-color: #161B36;
+    box-shadow: #242C54;
+}
+.pageSix>figure>img{
+    position: absolute;
+    top: -50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.pageSix>figure>figcaption{
+    position: relative;
+    font-size: 20px;
+    color: #E74C3C;
+    font-family: sans-serif;
+    text-align: center;
+    top: 148px;
+}
+.pageSix>figure:nth-child(5){
+    top: 251px;
+    left: -173px;
 }
