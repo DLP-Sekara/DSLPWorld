@@ -87,29 +87,50 @@ nav > h1:nth-child(2) {
 }
 
 #fbIcon {
+    text-decoration: none;
+    color: white;
     margin-right: 50px;
 }
-
+#fbIcon:hover{
+    color: #E74C3C;
+    cursor: pointer;
+}
 #instagramIcon {
+    text-decoration: none;
+    color: white;
     margin-right: 50px;
 }
-
+#instagramIcon:hover{
+    color: #E74C3C;
+    cursor: pointer;
+}
 #linkedinIcon {
+    text-decoration: none;
+    color: white;
     margin-right: 50px;
 }
-
+#linkedinIcon:hover{
+    color: #E74C3C;
+    cursor: pointer;
+}
 #twitterIcon {
+    text-decoration: none;
+    color: white;
     margin-right: 50px;
 }
+#twitterIcon:hover{
+    color: #E74C3C;
+    cursor: pointer;
+}
+.pageOne > section:nth-child(1) > h1 {
 
-.pageOne > section:nth-child(1) > h1, h2 {
+}
+
+.pageOne > section:nth-child(1) > h1 {
     position: absolute;
     font-family: sans-serif;
     margin: 0;
     left: 120px;
-}
-
-.pageOne > section:nth-child(1) > h1 {
     font-size: 30px;
     color: white;
     top: 245px;
@@ -117,12 +138,41 @@ nav > h1:nth-child(2) {
 }
 
 .pageOne > section:nth-child(1) > h2 {
+    position: absolute;
+    font-family: sans-serif;
+    margin: 0;
+    left: 120px;
     font-size: 35px;
-    color: #E74C3C;
+    color: #161B36;
+    -webkit-text-stroke: 1px #E74C3C ;
     top: 280px;
     letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.pageOne > section:nth-child(1) >h2::before{
+    content: attr(animateText);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:0;
+    height: 100%;
+    color: #E74C3C;
+    border-left: 2px solid #ECF0F1;
+    overflow: hidden;
+    animation-name: animate;
+    animation-duration: 6s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
 }
 
+@keyframes animate {
+    0%,10%,100% {
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
 /*=============================================page 2 css=============================================*/
 .pageTwo {
     position: relative;
@@ -214,7 +264,11 @@ nav > h1:nth-child(2) {
     left: 450px;
     bottom: 30px;
 }
-
+#aboutMeSection2 > button:hover{
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
 #icons2 {
     position: absolute;
     font-size: 30px;
@@ -224,19 +278,43 @@ nav > h1:nth-child(2) {
 }
 
 #fbIcon2 {
+    text-decoration: none;
+    color: white;
     margin-right: 50px;
 }
 
 #instagramIcon2 {
+    text-decoration: none;
+    color: white;
     margin-right: 50px;
 }
 
 #linkedinIcon2 {
+    text-decoration: none;
+    color: white;
     margin-right: 50px;
 }
 
 #twitterIcon2 {
+    text-decoration: none;
+    color: white;
     margin-right: 50px;
+}
+#fbIcon2:hover{
+    color: #E74C3C;
+    cursor: pointer;
+}
+#instagramIcon2:hover{
+    color: #E74C3C;
+    cursor: pointer;
+}
+#linkedinIcon2:hover{
+    color: #E74C3C;
+    cursor: pointer;
+}
+#twitterIcon2:hover{
+    color: #E74C3C;
+    cursor: pointer;
 }
 
 /*=============================================page 3 css=============================================*/
@@ -672,7 +750,28 @@ nav > h1:nth-child(2) {
     height: 286px;
     top: 60px;
 }
-
+#project_assignment>div{
+    position: relative;
+    display: inline-block;
+}
+#back{
+    position: relative;
+    font-size: 50px;
+    color: white;
+    top: 217px;
+    left: 90px;
+}
+#next{
+    position: relative;
+    font-size: 50px;
+    color: white;
+    top: 217px;
+    left: 1160px;
+}
+#back:hover,#next:hover{
+    color: #E74C3C;
+    cursor: pointer;
+}
 #TEAMMATES_name {
     font-size: 30px;
     font-weight: bold;
@@ -778,7 +877,7 @@ nav > h1:nth-child(2) {
     font-style: normal;
 }
 
-.pageSix > figure {
+.pageSix >a> figure {
     display: inline-block;
     position: relative;
     width: 250px;
@@ -789,7 +888,7 @@ nav > h1:nth-child(2) {
     box-shadow: #242C54;
 }
 
-.pageSix > figure > img {
+.pageSix >a> figure > img {
     position: absolute;
     top: -50px;
     bottom: 0;
@@ -798,7 +897,7 @@ nav > h1:nth-child(2) {
     margin: auto;
 }
 
-.pageSix > figure > figcaption {
+.pageSix >a> figure > figcaption {
     position: relative;
     font-size: 20px;
     color: #E74C3C;
@@ -807,7 +906,7 @@ nav > h1:nth-child(2) {
     top: 148px;
 }
 
-.pageSix > figure:nth-child(5) {
+.pageSix >a:nth-child(5)> figure {
     top: 313px;
     left: -173px;
 }
@@ -876,6 +975,8 @@ nav > h1:nth-child(2) {
     top: 205px;
 }
 
+
+
 #icons3 {
     position: absolute;
     font-size: 30px;
@@ -885,20 +986,42 @@ nav > h1:nth-child(2) {
 }
 
 #fbIcon3 {
+    text-decoration: none;
+    color: #E74C3C;
     margin-right: 50px;
 }
-
+#fbIcon3:hover{
+    color: white;
+    cursor: pointer;
+}
 #instagramIcon3 {
+    text-decoration: none;
+    color: #E74C3C;
     margin-right: 50px;
 }
-
+#instagramIcon3:hover{
+    color: white;
+    cursor: pointer;
+}
 #linkedinIcon3 {
+    text-decoration: none;
+    color: #E74C3C;
     margin-right: 50px;
+}
+#linkedinIcon3:hover{
+    color: white;
+    cursor: pointer;
+}
+#twitterIcon3 {
+    text-decoration: none;
+    color: #E74C3C;
+    margin-right: 50px;
+}
+#twitterIcon3:hover{
+    color:white;
+    cursor: pointer;
 }
 
-#twitterIcon3 {
-    margin-right: 50px;
-}
 
 #messageSection > div, input {
     position: relative;
