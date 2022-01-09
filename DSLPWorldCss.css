@@ -3,9 +3,11 @@ body {
     position: relative;
     background-color: #161B36;
 }
-main{
+
+main {
     position: relative;
 }
+
 nav {
     position: fixed;
     width: 100%;
@@ -754,13 +756,15 @@ nav > h1:nth-child(2) {
     top: 303px;
     left: -174px;
 }
+
 /*=============================================page 6 css=============================================*/
-.pageSix{
+.pageSix {
     position: relative;
-    background-color:#ECF0F1;
+    background-color: #ECF0F1;
     height: 775px;
     top: 0;
 }
+
 #pageSixeName {
     font-size: 30px;
     font-weight: bold;
@@ -774,7 +778,7 @@ nav > h1:nth-child(2) {
     font-style: normal;
 }
 
-.pageSix>figure{
+.pageSix > figure {
     display: inline-block;
     position: relative;
     width: 250px;
@@ -784,7 +788,8 @@ nav > h1:nth-child(2) {
     background-color: #161B36;
     box-shadow: #242C54;
 }
-.pageSix>figure>img{
+
+.pageSix > figure > img {
     position: absolute;
     top: -50px;
     bottom: 0;
@@ -792,7 +797,8 @@ nav > h1:nth-child(2) {
     right: 0;
     margin: auto;
 }
-.pageSix>figure>figcaption{
+
+.pageSix > figure > figcaption {
     position: relative;
     font-size: 20px;
     color: #E74C3C;
@@ -800,18 +806,21 @@ nav > h1:nth-child(2) {
     text-align: center;
     top: 148px;
 }
-.pageSix>figure:nth-child(5){
+
+.pageSix > figure:nth-child(5) {
     top: 313px;
     left: -173px;
 }
+
 /*=============================================page 7 css=============================================*/
-.pageSeven{
+.pageSeven {
     position: relative;
-    background-color:#161B36;
+    background-color: #161B36;
     height: 590px;
     top: -131px;
     bottom: 0;
 }
+
 #pageSevenName {
     font-size: 30px;
     font-weight: bold;
@@ -824,7 +833,8 @@ nav > h1:nth-child(2) {
     font-family: sans-serif;
     font-style: normal;
 }
-#contactLinks>p{
+
+#contactLinks > p {
     font-size: 20px;
     color: white;
     left: 180px;
@@ -833,31 +843,39 @@ nav > h1:nth-child(2) {
     display: inline;
     text-decoration: none;
 }
-#contactLinks>i{
+
+#contactLinks > i {
     position: relative;
     font-size: 30px;
     color: #E74C3C;
-    left : 120px;
+    left: 120px;
 
 }
-#address1{
+
+#address1 {
     top: 100px;
 }
-#address2{
+
+#address2 {
     top: 140px;
 }
-#address3{
+
+#address3 {
     top: 180px;
 }
-#nameIcon{
+
+#nameIcon {
     top: 120px;
 }
-#addressIcon{
+
+#addressIcon {
     top: 160px;
 }
-#emailIcon{
-  top: 205px;
+
+#emailIcon {
+    top: 205px;
 }
+
 #icons3 {
     position: absolute;
     font-size: 30px;
@@ -881,7 +899,8 @@ nav > h1:nth-child(2) {
 #twitterIcon3 {
     margin-right: 50px;
 }
-#messageSection>div,input{
+
+#messageSection > div, input {
     position: relative;
     background-color: #242C54;
     width: 570px;
@@ -893,14 +912,17 @@ nav > h1:nth-child(2) {
     top: -67px;
     border: 1px solid #242c54;
 }
-#txtSubject{
+
+#txtSubject {
     top: -83px;
 }
-#message{
+
+#message {
     top: -100px;
     height: 150px;
 }
-#button2{
+
+#button2 {
     position: relative;
     height: 40px;
     width: 120px;
@@ -910,11 +932,19 @@ nav > h1:nth-child(2) {
     border: 1px solid #E74C3C;
     color: #E74C3C;
 }
+
 /*=============================================footer=============================================*/
-footer{
+footer {
     position: relative;
-    background-color:#242C54;
+    background-color: #242C54;
     bottom: 0;
     height: 45px;
-
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+}
+footer>small{
+    position: relative;
+    top: 10px;
 }
