@@ -91,39 +91,43 @@ nav > h1:nth-child(2) {
     color: white;
     margin-right: 50px;
 }
-#fbIcon:hover{
+
+#fbIcon:hover {
     color: #E74C3C;
     cursor: pointer;
 }
+
 #instagramIcon {
     text-decoration: none;
     color: white;
     margin-right: 50px;
 }
-#instagramIcon:hover{
+
+#instagramIcon:hover {
     color: #E74C3C;
     cursor: pointer;
 }
+
 #linkedinIcon {
     text-decoration: none;
     color: white;
     margin-right: 50px;
 }
-#linkedinIcon:hover{
+
+#linkedinIcon:hover {
     color: #E74C3C;
     cursor: pointer;
 }
+
 #twitterIcon {
     text-decoration: none;
     color: white;
     margin-right: 50px;
 }
-#twitterIcon:hover{
+
+#twitterIcon:hover {
     color: #E74C3C;
     cursor: pointer;
-}
-.pageOne > section:nth-child(1) > h1 {
-
 }
 
 .pageOne > section:nth-child(1) > h1 {
@@ -137,42 +141,94 @@ nav > h1:nth-child(2) {
     letter-spacing: 4px;
 }
 
-.pageOne > section:nth-child(1) > h2 {
-    position: absolute;
-    font-family: sans-serif;
+.wrapper {
+    position: relative;
+    top: 260px;
+    left: 50px;
     margin: 0;
-    left: 120px;
-    font-size: 35px;
-    color: #161B36;
-    -webkit-text-stroke: 1px #E74C3C ;
-    top: 280px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+    padding: 0;
+    box-sizing: border-box;
+    display: inline-flex;
 }
-.pageOne > section:nth-child(1) >h2::before{
-    content: attr(animateText);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width:0;
-    height: 100%;
-    color: #E74C3C;
-    border-left: 2px solid #ECF0F1;
+/*.wrapper .static_text{*/
+/*    font-size: 60px;*/
+/*    color: #ECF0F1;*/
+/*    font-weight: 500;*/
+/*}*/
+.wrapper>ul{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
     overflow: hidden;
-    animation-name: animate;
-    animation-duration: 6s;
-    animation-direction: alternate-reverse;
-    animation-iteration-count: infinite;
+}
+.wrapper>ul>li{
+    color: #E74C3C;
+    font-family: sans-serif;
+    list-style: none;
+    font-size: 59px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slideing 6s steps(4) infinite;
+
+}
+@keyframes slideing {
+    100% {
+        top: -360px;
+    }
+}
+.wrapper>ul>li>span{
+    position: relative;
+}
+.wrapper>ul>li>span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #161B36;
+    border-left: 2px solid white;
+    animation-delay: 5s;
+    animation: typing 1.5s steps(20) infinite;
 }
 
-@keyframes animate {
-    0%,10%,100% {
-        width: 0;
-    }
-    70%,90%{
-        width: 100%;
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
     }
 }
+
+/*.myList > li > h2 {*/
+/*    display: inline;*/
+/*    position: relative;*/
+/*    font-family: sans-serif;*/
+/*    line-height: 55px;*/
+/*    left: 120px;*/
+
+/*    color: #E74C3C;*/
+/*    top: 0;*/
+/*    !*top: 280;*!*/
+
+/*    letter-spacing: 3px;*/
+/*    animation: slideing 6s steps(4) infinite;*/
+/*}*/
+
+
+
+/*.myList > li > h2::after {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    background-color: #161B36;*/
+/*    left: 0;*/
+/*    border-left: 2px solid white;*/
+/*    animation: typing 1.5s steps(15) infinite;*/
+/*}*/
+
+
+
 /*=============================================page 2 css=============================================*/
 .pageTwo {
     position: relative;
@@ -264,11 +320,13 @@ nav > h1:nth-child(2) {
     left: 450px;
     bottom: 30px;
 }
-#aboutMeSection2 > button:hover{
+
+#aboutMeSection2 > button:hover {
     border-color: white;
     color: white;
     cursor: pointer;
 }
+
 #icons2 {
     position: absolute;
     font-size: 30px;
@@ -300,19 +358,23 @@ nav > h1:nth-child(2) {
     color: white;
     margin-right: 50px;
 }
-#fbIcon2:hover{
+
+#fbIcon2:hover {
     color: #E74C3C;
     cursor: pointer;
 }
-#instagramIcon2:hover{
+
+#instagramIcon2:hover {
     color: #E74C3C;
     cursor: pointer;
 }
-#linkedinIcon2:hover{
+
+#linkedinIcon2:hover {
     color: #E74C3C;
     cursor: pointer;
 }
-#twitterIcon2:hover{
+
+#twitterIcon2:hover {
     color: #E74C3C;
     cursor: pointer;
 }
@@ -750,28 +812,33 @@ nav > h1:nth-child(2) {
     height: 286px;
     top: 60px;
 }
-#project_assignment>div{
+
+#project_assignment > div {
     position: relative;
     display: inline-block;
 }
-#back{
+
+#back {
     position: relative;
     font-size: 50px;
     color: white;
     top: 217px;
     left: 90px;
 }
-#next{
+
+#next {
     position: relative;
     font-size: 50px;
     color: white;
     top: 217px;
     left: 1160px;
 }
-#back:hover,#next:hover{
+
+#back:hover, #next:hover {
     color: #E74C3C;
     cursor: pointer;
 }
+
 #TEAMMATES_name {
     font-size: 30px;
     font-weight: bold;
@@ -877,7 +944,7 @@ nav > h1:nth-child(2) {
     font-style: normal;
 }
 
-.pageSix >a> figure {
+.pageSix > a > figure {
     display: inline-block;
     position: relative;
     width: 250px;
@@ -888,7 +955,7 @@ nav > h1:nth-child(2) {
     box-shadow: #242C54;
 }
 
-.pageSix >a> figure > img {
+.pageSix > a > figure > img {
     position: absolute;
     top: -50px;
     bottom: 0;
@@ -897,7 +964,7 @@ nav > h1:nth-child(2) {
     margin: auto;
 }
 
-.pageSix >a> figure > figcaption {
+.pageSix > a > figure > figcaption {
     position: relative;
     font-size: 20px;
     color: #E74C3C;
@@ -906,7 +973,7 @@ nav > h1:nth-child(2) {
     top: 148px;
 }
 
-.pageSix >a:nth-child(5)> figure {
+.pageSix > a:nth-child(5) > figure {
     top: 313px;
     left: -173px;
 }
@@ -976,7 +1043,6 @@ nav > h1:nth-child(2) {
 }
 
 
-
 #icons3 {
     position: absolute;
     font-size: 30px;
@@ -990,35 +1056,42 @@ nav > h1:nth-child(2) {
     color: #E74C3C;
     margin-right: 50px;
 }
-#fbIcon3:hover{
+
+#fbIcon3:hover {
     color: white;
     cursor: pointer;
 }
+
 #instagramIcon3 {
     text-decoration: none;
     color: #E74C3C;
     margin-right: 50px;
 }
-#instagramIcon3:hover{
+
+#instagramIcon3:hover {
     color: white;
     cursor: pointer;
 }
+
 #linkedinIcon3 {
     text-decoration: none;
     color: #E74C3C;
     margin-right: 50px;
 }
-#linkedinIcon3:hover{
+
+#linkedinIcon3:hover {
     color: white;
     cursor: pointer;
 }
+
 #twitterIcon3 {
     text-decoration: none;
     color: #E74C3C;
     margin-right: 50px;
 }
-#twitterIcon3:hover{
-    color:white;
+
+#twitterIcon3:hover {
+    color: white;
     cursor: pointer;
 }
 
@@ -1067,7 +1140,8 @@ footer {
     color: white;
     text-align: center;
 }
-footer>small{
+
+footer > small {
     position: relative;
     top: 10px;
 }
