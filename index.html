@@ -279,57 +279,61 @@ desktop publishing software like Aldus PageMaker including versions of Lorem Ips
 
 
     <!--page 7-->
-    <section>
-        <p><dfn id="7">CONTACT</dfn></p>
-        <section>
-            <img alt="" src="assets/images/footer%20user.png">
-            <address>
+    <section class="pageSeven">
+        <p id="pageSevenName"><dfn id="7">CONTACT</dfn></p>
+        <section id="contactLinks">
+<!--            <img alt="" src="assets/images/footer%20user.png">-->
+            <i id="nameIcon" class="fas fa-user"></i>
+            <p id="address1">
                 Name
                 <br>
                 D S Lahiru Piyumal
-            </address>
+            </p>
             <br>
-            <img alt="" src="assets/images/footer%20address.png">
-            <address>
+<!--            <img alt="" src="assets/images/footer%20address.png">-->
+            <i id="addressIcon" class="fas fa-map-marker-alt"></i>
+            <p id="address2">
                 Address
                 <br>
                 121 Induruwala,Millewa,Horana,Sri Lanka
-            </address>
+            </p>
             <br>
-            <img alt="" src="assets/images/footer%20email.png">
-            <address>
+<!--            <img alt="" src="assets/images/footer%20email.png">-->
+            <i id="emailIcon" class="fas fa-envelope"></i>
+            <p id="address3">
                 Email
                 <br>
                 dslahirupiyumal99@gmail.com
-            </address>
+            </p>
             <br>
             <br>
-            <img alt="" src="assets/images/footer%20fb.png">
-            <img alt="" src="assets/images/footer%20instagram.png">
-            <img alt="" src="assets/images/footer%20linked%20in.png">
-            <img alt="" src="assets/images/footer%20twitter.png">
+            <section id="icons3">
+                <i class="fab fa-facebook-square" id="fbIcon3"></i>
+                <i class="fab fa-instagram" id="instagramIcon3"></i>
+                <i class="fab fa-linkedin" id="linkedinIcon3"></i>
+                <i class="fab fa-twitter-square" id="twitterIcon3"></i>
+            </section>
         </section>
-
-
-        <section>
+        <section id="messageSection">
             <form action="">
-                <legend>Message Me</legend>
-
-                <label for="txtName">Name</label>
-                <input id="txtName" placeholder="Name" type="text">
-
-                <label for="txtEmail">Email</label>
-                <input id="txtEmail" placeholder="Email" type="text">
+                <div>
+                <input id="txtName"  placeholder="Name" type="text">
+                </div>
                 <br>
                 <br>
-                <label for="txtSubject">Subject</label>
+
+                <div>
                 <input id="txtSubject" placeholder="Subject" type="text">
+                </div>
                 <br>
                 <br>
-                <label for="message">Message</label>
-                <textarea id="message">Message</textarea>
+
+                <div>
+                    <input id="message"  type="text">
+                </div>
                 <br>
                 <br>
+
                 <button>Send Message</button>
             </form>
         </section>

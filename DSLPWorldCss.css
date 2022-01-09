@@ -2,7 +2,9 @@
 body {
     position: relative;
 }
-
+main{
+    position: relative;
+}
 nav {
     position: fixed;
     width: 100%;
@@ -755,7 +757,7 @@ nav > h1:nth-child(2) {
 .pageSix{
     position: relative;
     background-color:#ECF0F1;
-    height: 590px;
+    height: 650px;
     top: -102px;
 }
 #pageSixeName {
@@ -800,4 +802,118 @@ nav > h1:nth-child(2) {
 .pageSix>figure:nth-child(5){
     top: 251px;
     left: -173px;
+}
+/*=============================================page 7 css=============================================*/
+.pageSeven{
+    position: relative;
+    background-color:#161B36;
+    height: 650px;
+    top: -131px;
+    bottom: 0;
+}
+#pageSevenName {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 40px;
+    position: relative;
+    font-family: sans-serif;
+    font-style: normal;
+}
+#contactLinks>p{
+    font-size: 20px;
+    color: white;
+    left: 180px;
+    position: relative;
+    font-family: sans-serif;
+    display: inline;
+    text-decoration: none;
+}
+#contactLinks>i{
+    position: relative;
+    font-size: 30px;
+    color: #E74C3C;
+    left : 120px;
+
+}
+#address1{
+    top: 100px;
+}
+#address2{
+    top: 140px;
+}
+#address3{
+    top: 180px;
+}
+#nameIcon{
+    top: 120px;
+}
+#addressIcon{
+    top: 160px;
+}
+#emailIcon{
+  top: 205px;
+}
+#icons3 {
+    position: absolute;
+    font-size: 30px;
+    color: #E74C3C;
+    top: 487px;
+    left: 120px;
+}
+
+#fbIcon3 {
+    margin-right: 50px;
+}
+
+#instagramIcon3 {
+    margin-right: 50px;
+}
+
+#linkedinIcon3 {
+    margin-right: 50px;
+}
+
+#twitterIcon3 {
+    margin-right: 50px;
+}
+#messageSection>div,input{
+    position: relative;
+    background-color: #242C54;
+    width: 570px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    left: 666px;
+    top: -67px;
+    border: 1px solid #242c54;
+}
+#txtSubject{
+    top: -83px;
+}
+#message{
+    top: -100px;
+    height: 150px;
+}
+button{
+    position: relative;
+    height: 40px;
+    width: 120px;
+    top: -115px;
+    left: 670px;
+    background-color: #161B36;
+    border: 1px solid #E74C3C;
+    color: #E74C3C;
+}
+/*=============================================footer=============================================*/
+footer{
+    position: relative;
+    background-color:#242C54;
+    bottom: 0;
+    height: 45px;
+
 }
