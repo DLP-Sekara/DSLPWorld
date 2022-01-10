@@ -19,3 +19,41 @@ main {
     font-style: normal;
     letter-spacing: 2px;
 }
+.boxBorder{
+    position: relative;
+    width: 510px;
+    height: 360px;
+    border: 2px solid red;
+    border-radius: 10px;
+    display: inline-block;
+    left: 112px;
+    margin: 20px;
+}
+.boxBorder>div{
+    position: relative;
+    height: 250px;
+    width: 450px;
+    background-color: #242C54;
+    left: 28px;
+    top: -25px;
+}
+.boxBorder>div>img{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.boxBorder>h1{
+    font-size: 20px;
+    color: white;
+    left: 190px;
+    top: 280px;
+    margin-left: 0;
+    position: relative;
+    font-family: sans-serif;
+    display: inline-block;
+}
