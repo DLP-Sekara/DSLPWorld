@@ -1120,3 +1120,92 @@ footer > small {
     position: relative;
     top: 10px;
 }
+/*=====================responsive======================*/
+@media all and (max-width: 425px){
+    body {
+        position: relative;
+    }
+    main {
+        position: relative;
+    }
+    nav > ul {
+        display: none;
+    }
+    nav > h1:nth-child(1) {
+        left: 45%;
+    }
+
+    nav > h1:nth-child(2) {
+        left: 48%;
+    }
+    .pageOne > img {
+        left: 850px;
+    }
+    #icons {
+    display: none;
+    }
+    .pageOne > section:nth-child(1) > h1 {
+        width: 400px;
+    }
+    .wrapper {
+        top: 265px;
+        left: 70px;
+    }
+    .pageTwo {
+        width: 1366px;
+    }
+    #myImg2 {
+       display: none;
+    }
+    #aboutMeSection2 {
+        top: 139px;
+        bottom: 101px;
+        left: 258px;
+    }
+    #aboutMeSection1 {
+        top: 139px;
+        bottom: 101px;
+        left: 258px;
+    }
+    #pageTwoName {
+        left: -85px;
+    }
+    #pageThreeName {
+        left: 420px;
+    }
+    #line1,#line2,#line3,#line4,#line5 {
+        display: none;
+    }
+    #mainLine {
+        left: 586px;
+    }
+    #circle1,#circle2,#circle3,#circle4,#circle5 {
+        left: 577px;
+    }
+    #eduIJSE > h1 {
+        top: 178px;
+        left: -125px;
+    }
+    #eduIJSE > figcaption {
+        position: relative;
+        top: 125px;
+        left: 15px;
+    }
+    #eduIJSE > img {
+        left: 200px;
+        top: 125px;
+
+    }
+    #eduFUTUREips > h1 {
+        top: 303px;
+        left: 35px;
+    }
+    #eduFUTUREips > img {
+        left: 0;
+        top: 302px;
+    }
+    #eduFUTUREips > figcaption {
+        top: 164px;
+        left: -325px;
+    }
+}
