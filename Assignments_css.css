@@ -6,6 +6,7 @@ body {
 main {
     position: relative;
 }
+
 #pageName {
     font-size: 30px;
     font-weight: bold;
@@ -19,17 +20,19 @@ main {
     font-style: normal;
     letter-spacing: 2px;
 }
-.boxBorder{
+
+.boxBorder {
     position: relative;
     width: 510px;
     height: 360px;
-    border: 2px solid red;
+    border: 2px solid #242C54;
     border-radius: 10px;
     display: inline-block;
     left: 112px;
     margin: 20px;
 }
-.boxBorder>div{
+
+.boxBorder > div {
     position: relative;
     height: 250px;
     width: 450px;
@@ -37,7 +40,8 @@ main {
     left: 28px;
     top: -25px;
 }
-.boxBorder>div>img{
+
+.boxBorder > div > a > img {
     position: absolute;
     width: 400px;
     height: 200px;
@@ -47,7 +51,8 @@ main {
     bottom: 0;
     margin: auto;
 }
-.boxBorder>h1{
+
+.boxBorder > h1 {
     font-size: 20px;
     color: white;
     left: 190px;
@@ -56,4 +61,46 @@ main {
     position: relative;
     font-family: sans-serif;
     display: inline-block;
+}
+#border1>h1{
+    left: 105px;
+}
+#border11>h1{
+    left: 115px;
+}
+#border2>h1{
+    left: 170px;
+}
+#border1>img:hover,#border2>img:hover,#border3>img:hover,#border4>img:hover,#border5>img:hover,#border6>img:hover,#border7>img:hover,#border8>img:hover,#border9>img:hover,#border10>img:hover,#border11>img:hover{
+    cursor: pointer;
+}
+#border1:hover,#border2:hover,#border3:hover,#border4:hover,#border5:hover,#border6:hover,#border7:hover,#border8:hover,#border9:hover,#border10:hover,#border11:hover{
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    color: #E74C3C;
+}
+
+@keyframes animate {
+    0% {
+        border-top:2px solid white;
+    }
+    25% {
+        border-top-color: #E74C3C;
+        border-right-color: white;
+    }
+    50% {
+        border-top-color: #E74C3C;
+        border-right-color: #E74C3C;
+        border-bottom-color: white;
+    }
+    75% {
+        border-top-color: #E74C3C;
+        border-right-color: #E74C3C;
+        border-bottom-color: #E74C3C;
+        border-left-color: white;
+    }
+    100% {
+        border-color: #E74C3C;
+    }
 }
