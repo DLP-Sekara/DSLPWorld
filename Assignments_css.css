@@ -1,0 +1,21 @@
+body {
+    position: relative;
+    background-color: #161B36;
+}
+
+main {
+    position: relative;
+}
+#pageName {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -7px;
+    position: relative;
+    font-family: sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+}
