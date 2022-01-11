@@ -660,7 +660,7 @@ nav > h1:nth-child(2) {
     top: 80px;
 }
 
-#skillDescription > pre {
+#skillDescription > p {
     top: 20px;
     position: relative;
     font-size: 17px;
@@ -1147,6 +1147,7 @@ footer > small {
         /*font-size: 45px;*/
         /*left: 55vw;*/
     }
+    /*===========================================*/
     .pageOne{
         /*width: max-content;*/
         width: 425px;
@@ -1341,30 +1342,155 @@ footer > small {
         top: 234px;
         left: 70px;
     }
-/*#eduIJSE > h1 {*/
-    /*    top: 178px;*/
-    /*    left: -125px;*/
-    /*}*/
-    /*#eduIJSE > figcaption {*/
-    /*    position: relative;*/
-    /*    top: 125px;*/
-    /*    left: 15px;*/
-    /*}*/
-    /*#eduIJSE > img {*/
-    /*    left: 200px;*/
-    /*    top: 125px;*/
+    /*===========================================*/
+    .pageFour{
+        width: 425px;
+    }
+    #pageFourName {
+        display: inline-block;
+        left: 150px;
+        top: 0;
+    }
+    #skillDescription  {
+        left: 12px;
+        width: 400px;
+        top:0;
+    }
+    #skillText {
+        top: 40px;
+        width: 370px;
+        left: 19px;
+        position: relative;
+        font-size: 14px;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+    }
+    #skillList {
+        width: 400px;
+        left: 12px;
+        height: 255px;
+        top: 0;
+    }
 
-    /*}*/
-    /*#eduFUTUREips > h1 {*/
-    /*    top: 303px;*/
-    /*    left: 35px;*/
-    /*}*/
-    /*#eduFUTUREips > img {*/
-    /*    left: 0;*/
-    /*    top: 302px;*/
-    /*}*/
-    /*#eduFUTUREips > figcaption {*/
-    /*    top: 164px;*/
-    /*    left: -325px;*/
-    /*}*/
+    #skillList > ul > div {
+        width: 260px;
+        height: 7px;
+        left: 52px;
+    }
+    #skillList > ul > li {
+        position: relative;
+        top: -4px;
+        display: inline;
+        left: -17px;
+        font-size: 25px;
+        margin: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    #parameter1 {
+        width: 104px;
+    }
+    #parameter2 {
+        width: 130px;
+    }
+    #parameter3 {
+        width: 78px;
+    }
+    #parameter4 {
+        width: 156px;
+    }
+    #parameter5 {
+        width: 146px;
+    }
+    #parameter6 {
+        width: 52px;
+    }
+    /*===========================================*/
+    .pageFive{
+        width: 425px;
+
+    }
+    #pageFiveName {
+        display: inline-block;
+        left: 150px;
+        top: 0;
+    }
+    #ProjectImg2 {
+        position: relative;
+        display: inline;
+        padding-right: 10px;
+        left: 72px;
+        top: 0;
+    }
+    #ProjectImg1 {
+        position: relative;
+        display: inline;
+        left: 12px;
+        top: -20px;
+    }
+    #ProjectImg3 {
+        position: relative;
+        display: inline;
+        left: 10px;
+        top: 20px;
+    }
+    #showMore {
+        top: 770px;
+        left: 20px;
+        transform: rotate(270deg);
+    }
+    #TEAMMATES_name {
+        display: inline-block;
+        left: 110px;
+        top: 166px;
+    }
+    #teammates{}
+    #teammates > figure:nth-child(1) {
+        left: 10px;
+    }
+    #teammates > figure:nth-child(2) {
+        left: 10px;
+    }
+    #teammates > figure:nth-child(3) {
+        left: 10px;
+    }
+    /*===========================================*/
+    .pageSix{
+        width: 425px;
+
+    }
+    #pageSixeName {
+        display: inline-block;
+        left: 150px;
+        top: 0;
+    }
+    .pageSix > a > figure {
+        display: inline-block;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        top: 80px;
+        left: 160px;
+        background-color: #161B36;
+        box-shadow: #242C54;
+    }
+    .pageSix > a > figure > img {
+        position: absolute;
+        top: -50px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .pageSix > a > figure > figcaption {
+        position: relative;
+        font-size: 20px;
+        color: #E74C3C;
+        font-family: sans-serif;
+        text-align: center;
+        top: 148px;
+    }
+
 }
