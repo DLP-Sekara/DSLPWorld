@@ -1125,7 +1125,7 @@ footer > small {
 }
 
 /*=====================responsive======================*/
-@media all and (max-width: 425px) {
+@media all and (max-width: 1024px) {
     body {
         position: relative;
     }
@@ -1160,11 +1160,12 @@ footer > small {
     .pageOne {
         /*width: max-content;*/
         width: 425px;
+        height: 800px;
     }
 
     .pageOne > img {
         position: absolute;
-        top: -120px;
+        top: 163px;
         left: 0;
         margin: auto;
         right: 0;
@@ -1176,9 +1177,9 @@ footer > small {
     }
 
     .pageOne > section:nth-child(1) > h1 {
-        top: 525px;
+        top: 150px;
         width: 279px;
-        left: 77px;
+        left: 80px;
         font-size: 18px;
     }
 

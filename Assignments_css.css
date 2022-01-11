@@ -104,3 +104,52 @@ main {
         border-color: #E74C3C;
     }
 }
+@media all and (max-width: 1024px) {
+    main{
+        width: 425px;
+    }
+
+    #pageName {
+        display: inline-block;
+        left: 65px;
+        top: 0;
+    }
+    .boxBorder {
+        left: 20px;
+        width: 320px;
+        height: 220px;
+    }
+    .boxBorder > div {
+        position: relative;
+        height: 192px;
+        width: 291px;
+        background-color: #242C54;
+        left: 16px;
+        top: -34px;
+    }
+    .boxBorder > div > a > img {
+        position: absolute;
+        width: 260px;
+        height: 150px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #border1>h1 {
+        left: 62px;
+    }
+    #border11>h1{
+        left: 64px;
+    }
+    #border2>h1{
+        left: 96px;
+    }
+    .boxBorder > h1 {
+        font-size: 14px;
+        left: 116px;
+        top: 192px;
+    }
+
+}
