@@ -105,9 +105,9 @@ main {
     }
 }
 @media all and (max-width: 1024px) {
-    /*main{*/
-    /*    width: 425px;*/
-    /*}*/
+    main{
+        width: 425px;
+    }
 
     #pageName {
         display: inline;
@@ -115,7 +115,7 @@ main {
         top: 0;
     }
     .boxBorder {
-        left: 0;
+        left: 20px;
         width: 320px;
         height: 220px;
     }
