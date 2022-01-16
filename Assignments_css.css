@@ -105,9 +105,9 @@ main {
     }
 }
 @media all and (max-width: 1024px) {
-    main{
-        width: 425px;
-    }
+    /*main{*/
+    /*    width: 425px;*/
+    /*}*/
 
     #pageName {
         display: inline;
