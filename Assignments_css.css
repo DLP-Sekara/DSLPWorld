@@ -110,7 +110,7 @@ main {
     }
 
     #pageName {
-        display: inline-block;
+        display: inline;
         left: 65px;
         top: 0;
     }
