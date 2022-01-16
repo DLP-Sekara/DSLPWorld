@@ -115,7 +115,7 @@ main {
         top: 0;
     }
     .boxBorder {
-        left: 20px;
+        left: 0;
         width: 320px;
         height: 220px;
     }
@@ -141,7 +141,7 @@ main {
         left: 62px;
     }
     #border11>h1{
-        left: 64px;
+        left: 116px;
     }
     #border2>h1{
         left: 96px;
