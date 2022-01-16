@@ -780,34 +780,70 @@ nav > h1:nth-child(2) {
 
 }
 
-#ProjectImg2 {
-    position: relative;
-    display: inline;
-    padding-right: 10px;
-    left: 72px;
-    top: 100px;
-}
+.imageSlider {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 85px;
+    margin: auto;
+    height: 400px;
+    width: 700px;
+    overflow: hidden;
 
-#ProjectImg1 {
-    position: relative;
-    display: inline;
-    left: 820px;
-    top: 100px;
-}
 
-#ProjectImg3 {
+}
+.imageSlider>section{
     position: relative;
-    display: inline;
-    left: -686px;
-    top: 100px;
+    height: 100%;
+    width: 400%;
+    display: flex;
+    animation-name: animate;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+@keyframes animate {
+    0%,20%{
+        transform: translateX(0%);
+    }25%,45%{
+         transform: translateX(-25%);
+     }50%,70%{
+          transform: translateX(-50%);
+      }75%,100%{
+           transform: translateX(-75%);
+       }
+}
+.imageSlider>section>div{
+    width: 100%;
+}
+.imageSlider>section>div:nth-child(1){
+    background: url("assets/images/Assignments/project 1.png");
+    background-size: cover;
+    position: center;
+}
+.imageSlider>section>div:nth-child(2){
+    background: url("assets/images/Assignments/Assignment 1.png");
+    background-size: cover;
+    position: center;
+}
+.imageSlider>section>div:nth-child(3){
+    background: url("assets/images/Assignments/Assignment 2.png");
+    background-size: cover;
+    position: center;
+}
+.imageSlider>section>div:nth-child(4){
+    background: url("assets/images/Assignments/Assignment 3.png");
+    background-size: cover;
+    position: center;
 }
 
 #showMore {
     position: relative;
     font-size: 50px;
     color: white;
-    top: 10px;
-    left: 1280px;
+    top: 177px;
+    left: 1180px;
     transform: rotate(270deg);
 }
 
@@ -823,7 +859,7 @@ nav > h1:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 160px;
+    top: 413px;
     position: relative;
     font-family: sans-serif;
     font-style: normal;
@@ -834,7 +870,7 @@ nav > h1:nth-child(2) {
     display: inline-block;
     width: 313px;
     height: 387px;
-    top: 175px;
+    top: 400px;
     background-color: #242C54;
 }
 
@@ -1471,7 +1507,7 @@ footer > small {
     /*===========================================*/
     .pageFive {
         width: 425px;
-
+        height: 685px;
     }
 
     #pageFiveName {
@@ -1501,22 +1537,41 @@ footer > small {
         left: 10px;
         top: 20px;
     }
+    .imageSlider {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 85px;
+        margin: auto;
+        height: 247px;
+        width: 389px;
+        overflow: hidden;
+
+
+    }
 
     #showMore {
-        top: 770px;
+        top: 340px;
         left: 20px;
         transform: rotate(270deg);
     }
 
     #TEAMMATES_name {
         display: inline-block;
-        left: 110px;
-        top: 166px;
+        left: 123px;
+        top: 390px;
     }
 
     #teammates {
     }
-
+    #teammates > figure {
+        position: relative;
+        display: inline-block;
+        width: 313px;
+        height: 387px;
+        top: 400px;
+        background-color: #242C54;
+    }
     #teammates > figure:nth-child(1) {
         left: 10px;
     }
@@ -1528,16 +1583,19 @@ footer > small {
     #teammates > figure:nth-child(3) {
         left: 10px;
     }
+
     #heshanInfo {
         position: absolute;
         top: 303px;
         left: -180px;
     }
+
     #udeshInfo {
         position: absolute;
         top: 303px;
         left: -210px;
     }
+
     #prabodInfo {
         position: absolute;
         top: 303px;
@@ -1586,18 +1644,22 @@ footer > small {
         top: 148px;
         left: 120px;
     }
+
     #webFig {
         top: 350px;
         left: -62px;
     }
+
     #appFig {
         top: 440px;
         left: 124px;
     }
+
     #seoFig {
         top: 630px;
         left: -61px;
     }
+
     #seFig {
         top: 700px;
         left: 125px;
@@ -1611,6 +1673,7 @@ footer > small {
         text-align: center;
         top: 112px;
     }
+
     /*===========================================*/
     .pageSeven {
         width: 425px;
@@ -1623,9 +1686,11 @@ footer > small {
         left: 150px;
         top: 0;
     }
-    #messageSection{
+
+    #messageSection {
         display: none;
     }
+
     #contactLinks > p {
         font-size: 20px;
         color: white;
@@ -1644,24 +1709,31 @@ footer > small {
         left: 35px;
 
     }
+
     #nameIcon {
         top: 55px;
     }
+
     #address1 {
         top: 110px;
     }
+
     #addressIcon {
         top: 88px;
     }
+
     #address2 {
         top: 146px;
     }
+
     #emailIcon {
         top: 134px;
     }
+
     #address3 {
         top: 194px;
     }
+
     #icons3 {
         position: absolute;
         font-size: 30px;
