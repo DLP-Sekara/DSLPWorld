@@ -15,4 +15,4 @@ This is my first website. This will get my information through and is designed f
 - To check the [wireframe](https://wireframe.cc/rGQ2SU)
 - To check the [mockup](https://www.figma.com/file/e5cTGQrNSXC3bGrxtjBX1G/Untitled?node-id=0%3A1)
 - To check the [Github Site](https://dlp-sekara.github.io/DSLPWorld/)
-- To check the [000Webhost](https://dlp-sekara.github.io/DSLPWorld/)
+- To check the [000Webhost](https://dslpworld.000webhostapp.com)
