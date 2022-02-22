@@ -20,7 +20,7 @@ nav {
 nav > ul {
     position: absolute;
     top: 0;
-    height: 20px;
+    height: 21px;
     right: 30px;
     list-style: none;
 }
