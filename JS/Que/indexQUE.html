@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<section class="mainBody">
+<div class="mainArea">
+    <div id="pic1">
+        <h4>A</h4>
+        <img src="../assets/img/4942ab41a3358d14cded6d951fad3ba6.gif" alt="">
+    </div>
+
+    <div id="pic2">
+        <h4>B</h4>
+        <img src="../assets/img/4942ab41a3358d14cded6d951fad3ba6.gif" alt="">
+    </div>
+
+    <div id="pic3">
+        <h4>C</h4>
+        <img src="../assets/img/4942ab41a3358d14cded6d951fad3ba6.gif" alt="">
+        </div>
+
+    <div id="pic4">
+        <h4>D</h4>
+        <img src="../assets/img/4942ab41a3358d14cded6d951fad3ba6.gif" alt="">
+        </div>
+
+    <div id="pic5">
+        <h4>E</h4>
+        <img src="../assets/img/4942ab41a3358d14cded6d951fad3ba6.gif" alt="">
+        </div>
+
+    <div id="pic6">
+        <h4>F</h4>
+        <img src="../assets/img/4942ab41a3358d14cded6d951fad3ba6.gif" alt="">
+        </div>
+
+
+    <div>
+        <h4>Java Que</h4>
+        <img src="../assets/img/841556cbcbe36961fddec58ed635fec2.gif" alt="">
+    </div>
+
+</div>
+</section>
+
+<script src="../assets/JQuery/jquery-3.6.0.min.js"></script>
+<script>
+    var divArray=[$("#pic1>h4"),$("#pic2>h4"),$("#pic3>h4"),$("#pic4>h4"),$("#pic5>h4"),$("#pic6>h4")];
+    var symbolArray=["A","B","C","D","E","F"];
+
+    setInterval(getCount,1000);
+    function getCount() {
+        changeDiv();
+        for (let i = 0; i <divArray.length ; i++) {
+            divArray[i].text(symbolArray[i]);
+        }
+
+    }
+    function changeDiv() {
+        var tempSymbol=[];
+       tempSymbol.push(symbolArray[5]);
+       for (var i=0;i<divArray.length-1;i++){
+           tempSymbol.push(symbolArray[i]);
+       }
+        symbolArray=tempSymbol;
+    }
+</script>
+</body>
+</html>
