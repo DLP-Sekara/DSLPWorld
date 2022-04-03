@@ -1,3 +1,6 @@
+main{
+    overflow: hidden;
+}
 /*=============================================header css=============================================*/
 body {
     position: relative;
@@ -65,7 +68,7 @@ nav > h1:nth-child(2) {
 .pageOne {
     position: relative;
     background-color: #161B36;
-    height: 606px;
+    height: 103vh;
     top: 45px;
 }
 
@@ -82,8 +85,8 @@ nav > h1:nth-child(2) {
     position: absolute;
     font-size: 30px;
     color: white;
-    top: 180px;
-    left: 120px;
+    top: 15rem;
+    left: 10rem;
 }
 
 #fbIcon {
@@ -134,17 +137,17 @@ nav > h1:nth-child(2) {
     position: absolute;
     font-family: sans-serif;
     margin: 0;
-    left: 120px;
+    left: 10rem;
     font-size: 30px;
     color: white;
-    top: 245px;
+    top: 20rem;
     letter-spacing: 4px;
 }
 
 .wrapper {
     position: relative;
-    top: 260px;
-    left: 50px;
+    top: 21rem;
+    left: 6rem;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -203,7 +206,7 @@ nav > h1:nth-child(2) {
 .pageTwo {
     position: relative;
     background-color: #ECF0F1;
-    height: 705px;
+    height: 110vh;
     top: 0;
 }
 
@@ -223,28 +226,26 @@ nav > h1:nth-child(2) {
 #myImg2 {
     border-style: none;
     position: relative;
-    bottom: -50px;
-    left: 100px;
+    bottom: -5rem;
+    left: 10rem;
 }
 
 #aboutMeSection1 {
     position: relative;
-    width: 706px;
-    top: -375px;
-    bottom: 101px;
-    left: 550px;
-    height: 196px;
+    width: 45rem;
+    top: -21rem;
+    left: 35rem;
+    height: 12rem;
     background-color: #161B36;
 
 }
 
 #aboutMeSection2 {
     position: relative;
-    width: 706px;
-    top: -365px;
-    bottom: 101px;
-    left: 550px;
-    height: 196px;
+    width: 45rem;
+    top: -21rem;
+    left: 35rem;
+    height: 12rem;
     background-color: #161B36;
     font-size: 18px;
     color: white;
@@ -355,7 +356,7 @@ nav > h1:nth-child(2) {
 .pageThree {
     position: relative;
     background-color: #161B36;
-    height: 1300px;
+    height: 180vh;
     top: 0;
 }
 
@@ -366,7 +367,7 @@ nav > h1:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 70px;
+    top: 2rem;
     position: relative;
     font-family: sans-serif;
     font-style: normal;
@@ -375,11 +376,14 @@ nav > h1:nth-child(2) {
 #mainLine {
     position: absolute;
     background-color: #E74C3C;
-    height: 1000px;
+    height: 1040px;
     width: 8px;
-    top: 170px;
+    top: 0;
     align-items: center;
-    left: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 #line1 {
@@ -387,8 +391,8 @@ nav > h1:nth-child(2) {
     background-color: #E74C3C;
     height: 8px;
     width: 396px;
-    top: 325px;
-    left: 50%;
+    top: 20rem;
+    left: 42.5rem;
 }
 
 #line2 {
@@ -396,8 +400,8 @@ nav > h1:nth-child(2) {
     background-color: #E74C3C;
     height: 8px;
     width: 396px;
-    top: 500px;
-    left: 21%;
+    top: 31rem;
+    left: 17.5rem;
 }
 
 #line3 {
@@ -429,55 +433,78 @@ nav > h1:nth-child(2) {
 
 #circle1 {
     position: absolute;
+    display: inline;
     width: 27px;
     height: 27px;
     border-radius: 100%;
-    background-color: #E74C3C;
-    top: 315px;
-    right: 252px;
+    background-color: white;
+    top: 11rem;
+    left: 0;
+    bottom: 56rem;
+    right: 0;
+    margin: auto;
 }
 
 #circle2 {
     position: absolute;
+    display: inline;
     width: 27px;
     height: 27px;
     border-radius: 100%;
-    background-color: #E74C3C;
-    top: 489px;
-    left: 257px;
+    background-color: white;
+    top: 23rem;
+    left: 0;
+    bottom: 44rem;
+    right: 0;
+    margin: auto;
 }
 
 #circle3 {
     position: absolute;
+    display: inline;
     width: 27px;
     height: 27px;
     border-radius: 100%;
-    background-color: #E74C3C;
-    top: 670px;
-    right: 252px;
+    background-color: white;
+    top: 35rem;
+    left: 0;
+    bottom: 32rem;
+    right: 0;
+    margin: auto;
 }
 
 #circle4 {
     position: absolute;
+    display: inline;
     width: 27px;
     height: 27px;
     border-radius: 100%;
-    background-color: #E74C3C;
-    top: 850px;
-    left: 257px;
+    background-color: white;
+    top: 47rem;
+    left: 0;
+    bottom: 19rem;
+    right: 0;
+    margin: auto;
 }
 
 #circle5 {
     position: absolute;
+    display: inline;
     width: 27px;
     height: 27px;
     border-radius: 100%;
-    background-color: #E74C3C;
-    top: 1027px;
-    right: 252px;
+    background-color: white;
+    top: 59rem;
+    left: 0;
+    bottom: 6rem;
+    right: 0;
+    margin: auto;
 }
-
-.pageThree > figure {
+#mainDiv{
+    position: relative;
+    height: 170vh;
+}
+.pageThree >div>div> figure {
     position: absolute;
     display: inline;
     font-size: 15px;
@@ -486,141 +513,223 @@ nav > h1:nth-child(2) {
     font-family: sans-serif;
 }
 
-.pageThree > figure > h1 {
+.pageThree >div>div> figure > h1 {
     position: absolute;
     display: inline;
     font-size: 15px;
-    color: white;
+    color: orangered;
     width: 300px;
     font-family: sans-serif;
 }
-
+/*.eduIJSE{
+    border: 2px solid red;
+}*/
 /*==============ijse============*/
+.eduIJSE{
+    border-bottom-left-radius: 30px;
+    background-color: #242C54;
+    width: 25rem;
+    display: inline-block;
+    position: absolute;
+    left: 30rem;
+    right: 0;
+    bottom: 56rem;
+    margin: auto;
+    top: 2rem;
+    height: 11rem;
+}
 #eduIJSE {
-    left: 530px;
+    position: absolute;
+    left: -7rem;
+    top: -5rem;
+    margin: auto;
 }
 
 #eduIJSE > img {
-    left: 249px;
-    top: 104px;
+    left: 15rem;
+    top: 6rem;
+    margin: auto;
     height: 75px;
-    position: relative;
+    position: absolute;
 }
 
 #eduIJSE > figcaption {
-    position: relative;
-    top: 104px;
-    left: 59px;
+    position: absolute;
+    top: 12rem;
+    left: 4rem;
 }
 
 #eduIJSE > h1 {
-    position: relative;
-    top: 160px;
-    left: -51px;
+    position: absolute;
+    top: 13rem;
+    right: -8rem;
     font-size: 17px;
 }
 
 /*==============IPS============*/
+.eduFUTUREips{
+    border-bottom-right-radius: 30px;
+    background-color: #242C54;
+    width: 25rem;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 30rem;
+    bottom: 44rem;
+    margin: auto;
+    top: 14rem;
+    height: 11rem;
+}
 #eduFUTUREips {
-    left: 330px;
+    position: absolute;
+    left: 6rem;
+    top: -9rem;
+    margin: auto;
 }
 
 #eduFUTUREips > img {
-    left: 94px;
-    top: 282px;
+    left: 7rem;
+    top: 11rem;
     height: 122px;
-    position: relative;
+    position: absolute;
 }
 
 #eduFUTUREips > figcaption {
-    position: relative;
-    top: 141px;
+    position: absolute;
+    top: 10rem;
     padding-bottom: 10px;
-    left: -209px;
+    left: -14rem;
+    margin: auto;
 }
 
 #eduFUTUREips > h1 {
-    position: relative;
-    top: 285px;
-    left: 142px;
+    position: absolute;
+    top: 17rem;
+    left: 15rem;
     font-size: 17px;
 }
 
 /*==============Ginarathana============*/
+.eduGINARATHANA{
+    border-bottom-left-radius: 30px;
+    background-color: #242C54;
+    width: 25rem;
+    display: inline-block;
+    position: absolute;
+    left: 30rem;
+    bottom: 32rem;
+    right: 0;
+    margin: auto;
+    top: 26rem;
+    height: 11rem;
+}
 #eduGINARATHANA {
-    left: 330px;
+    position: absolute;
+    left: -20rem;
+    top: -26rem;
+    margin: auto;
 }
 
 #eduGINARATHANA > img {
-    left: 403px;
-    top: 444px;
+    left: 25rem;
+    top: 27rem;
     height: 96px;
-    position: relative;
+    position: absolute;
 }
 
 #eduGINARATHANA > figcaption {
-    position: relative;
-    top: 428px;
+    position: absolute;
+    top: 34rem;
     padding-bottom: 10px;
-    right: -326px;
+    right: -20rem;
 }
 
 #eduGINARATHANA > h1 {
-    position: relative;
-    top: 473px;
-    right: -326px;
+    position: absolute;
+    top: 34rem;
+    right: -21rem;
     font-size: 17px;
 }
 
-/*==============Ginarathana============*/
+/*==============DHARMAPALA ============*/
+.eduDHARMAPALA{
+    border-bottom-right-radius: 30px;
+    background-color: #242C54;
+    width: 25rem;
+    position: absolute;
+    left: 0;
+    right: 30rem;
+    margin: auto;
+    bottom: 19rem;
+    top: 38rem;
+    height: 11rem;
+}
 #eduDHARMAPALA {
-    left: 330px;
+    position: absolute;
+    left: 6rem;
+    top: -39rem;
+    margin: auto;
 }
 
 #eduDHARMAPALA > img {
-    left: 84px;
-    top: 646px;
+    left: 6rem;
+    top: 41rem;
     height: 114px;
-    position: relative;
+    position: absolute;
 }
 
 #eduDHARMAPALA > figcaption {
-    position: relative;
-    top: 548px;
+    position: absolute;
+    top: 42rem;
     padding-bottom: 10px;
-    right: 228px;
+    right: 14rem;
 }
 
 #eduDHARMAPALA > h1 {
-    position: relative;
-    top: 653px;
-    right: -120px;
+    position: absolute;
+    top: 47rem;
+    right: -15rem;
     font-size: 17px;
 }
 
-/*==============Ginarathana============*/
+/*==============piyarathana============*/
+.eduPIYARATHANA{
+    border-bottom-left-radius: 30px;
+    background-color: #242C54;
+    width: 25rem;
+    position: absolute;
+    left: 30rem;
+    right: 0;
+    margin: auto;
+    top: 50rem;
+    bottom: 6rem;
+    height: 11rem;
+}
 #eduPIYARATHANA {
-    left: 330px;
+    position: absolute;
+    left: -26rem;
+    top: -60rem;
+    margin: auto;
 }
 
 #eduPIYARATHANA > img {
-    left: 552px;
-    top: 812px;
+    left: 31rem;
+    top: 61rem;
     height: 126px;
-    position: relative;
+    position: absolute;
 }
 
 #eduPIYARATHANA > figcaption {
-    position: relative;
-    top: 692px;
+    position: absolute;
+    top: 62rem;
     padding-bottom: 10px;
-    right: -231px;
+    right: -30rem;
 }
 
 #eduPIYARATHANA > h1 {
-    position: relative;
-    top: 818px;
-    right: -214px;
+    position: absolute;
+    top: 68rem;
+    right: -27rem;
     font-size: 17px;
 }
 
@@ -628,7 +737,7 @@ nav > h1:nth-child(2) {
 .pageFour {
     position: relative;
     background-color: #ECF0F1;
-    height: 675px;
+    height: 106vh;
     top: 0;
 }
 
@@ -639,7 +748,7 @@ nav > h1:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 40px;
+    top: 7vh;
     position: relative;
     font-family: sans-serif;
     font-style: normal;
@@ -655,13 +764,18 @@ nav > h1:nth-child(2) {
 }
 
 #skillDescription {
+    position: absolute;
     width: 1000px;
     height: 196px;
-    top: 80px;
+    top: 8rem;
+    left: 0;
+    bottom: 20rem;
+    right: 0;
+    margin: auto;
 }
 
 #skillDescription > p {
-    top: 20px;
+
     position: relative;
     font-size: 17px;
     text-align: center;
@@ -670,9 +784,14 @@ nav > h1:nth-child(2) {
 }
 
 #skillList {
+    position: absolute;
     width: 1000px;
-    height: 255px;
-    top: 90px;
+    height: 285px;
+    top: 21rem;
+    left: 0;
+    right: 0;
+    bottom: 0rem;
+    margin: auto;
 }
 
 #skillList > ul > li {
@@ -759,7 +878,7 @@ nav > h1:nth-child(2) {
 .pageFive {
     position: relative;
     background-color: #161B36;
-    height: 1073px;
+    height: 160vh;
     top: 0;
 }
 
@@ -784,10 +903,10 @@ nav > h1:nth-child(2) {
     position: absolute;
     left: 0;
     right: 0;
-    top: 85px;
+    top: 10rem;
     margin: auto;
     height: 400px;
-    width: 700px;
+    width: 760px;
     overflow: hidden;
 
 
@@ -823,7 +942,7 @@ nav > h1:nth-child(2) {
     position: center;
 }
 .imageSlider>section>div:nth-child(2){
-    background: url("assets/images/Assignments/Assignment 1.png");
+    background: url("assets/images/Assignments/Screenshot (7).png");
     background-size: cover;
     position: center;
 }
@@ -833,7 +952,7 @@ nav > h1:nth-child(2) {
     position: center;
 }
 .imageSlider>section>div:nth-child(4){
-    background: url("assets/images/Assignments/Assignment 3.png");
+    background: url("assets/images/Assignments/Screenshot (8).png");
     background-size: cover;
     position: center;
 }
@@ -842,8 +961,8 @@ nav > h1:nth-child(2) {
     position: relative;
     font-size: 50px;
     color: white;
-    top: 177px;
-    left: 1180px;
+    top: 268px;
+    left: 1280px;
     transform: rotate(270deg);
 }
 
@@ -859,13 +978,50 @@ nav > h1:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 413px;
+    top: 65vh;
     position: relative;
     font-family: sans-serif;
     font-style: normal;
 }
+#teamMatesArea{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 35%;
+    top: 60%;
+    margin: auto;
+}
+#teamMatesArea>section{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    height: 100%;
+    width:  100%;
+    justify-content: space-between;
+}
+#teamMatesArea>section>div{
+    background-color: #242C54;
+    border-radius: 10px;
+    position: relative;
+}
+#teamMatesArea>section>div>img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5%;
+    margin: auto;
+}
 
-#teammates > figure {
+#teamMatesArea>section>div>pre{
+    font-family: monospace, monospace;
+    font-size: 1em;
+    color: white;
+    position: relative;
+    top: 80%;
+    left: -5.8em;
+}
+/*#teammates > figure {
     position: relative;
     display: inline-block;
     width: 313px;
@@ -893,9 +1049,9 @@ nav > h1:nth-child(2) {
     left: 0;
     right: 0;
     margin: auto;
-}
+}*/
 
-#prabodPic {
+/*#prabodPic {
     width: 200px;
     height: 263px;
 }
@@ -934,13 +1090,13 @@ nav > h1:nth-child(2) {
     position: absolute;
     top: 303px;
     left: -174px;
-}
+}*/
 
 /*=============================================page 6 css=============================================*/
 .pageSix {
     position: relative;
     background-color: #ECF0F1;
-    height: 775px;
+    height: 110vh;
     top: 0;
 }
 
@@ -956,8 +1112,50 @@ nav > h1:nth-child(2) {
     font-family: sans-serif;
     font-style: normal;
 }
-
-.pageSix > a > figure {
+.services{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20vh;
+    margin: auto;
+    height: 500px;
+    width: 90%;
+    overflow: hidden;
+}
+.services>section{
+    position: relative;
+    height: 106%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.services>section>div{
+    width: 30%;
+    height: 40%;
+    background-color: #161B36;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 1px 1px 3px 1px;
+}
+.services>section>div>img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 10%;
+}
+.services>section>div>pre{
+    color: #E74C3C;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 65%;
+    display: table;
+}
+/*.pageSix > a > figure {
     display: inline-block;
     position: relative;
     width: 250px;
@@ -989,14 +1187,13 @@ nav > h1:nth-child(2) {
 .pageSix > a:nth-child(5) > figure {
     top: 313px;
     left: -173px;
-}
+}*/
 
 /*=============================================page 7 css=============================================*/
 .pageSeven {
     position: relative;
     background-color: #161B36;
-    height: 590px;
-    top: -131px;
+    height: 100vh;
     bottom: 0;
 }
 
@@ -1031,7 +1228,17 @@ nav > h1:nth-child(2) {
     left: 120px;
 
 }
-
+#contactIcons{
+    position: relative;
+    width: 28rem;
+}
+#contactLinks{
+    top: 3rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
 #address1 {
     top: 140px;
 }
@@ -1061,8 +1268,8 @@ nav > h1:nth-child(2) {
     position: absolute;
     font-size: 30px;
     color: #E74C3C;
-    top: 487px;
-    left: 120px;
+    top: 11rem;
+    left: 7rem;
 }
 
 #fbIcon3 {
@@ -1121,6 +1328,13 @@ nav > h1:nth-child(2) {
     left: 666px;
     top: -125px;
     border: 1px solid #242c54;
+}
+#messageSection{
+    left: 0;
+    top: 20rem;
+    right: 0;
+    margin: auto;
+    position: absolute;
 }
 
 #txtSubject {
