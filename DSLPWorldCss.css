@@ -90,6 +90,9 @@ nav > h1:nth-child(2) {
 }
 
 #fbIcon {
+    position: absolute;
+    width: 21px;
+
     text-decoration: none;
     color: white;
     margin-right: 50px;
@@ -101,6 +104,10 @@ nav > h1:nth-child(2) {
 }
 
 #instagramIcon {
+    position: absolute;
+    width: 21px;
+    left: 5rem;
+
     text-decoration: none;
     color: white;
     margin-right: 50px;
@@ -112,6 +119,10 @@ nav > h1:nth-child(2) {
 }
 
 #linkedinIcon {
+    position: absolute;
+    width: 21px;
+    left: 10rem;
+
     text-decoration: none;
     color: white;
     margin-right: 50px;
@@ -123,6 +134,10 @@ nav > h1:nth-child(2) {
 }
 
 #twitterIcon {
+    position: absolute;
+    width: 21px;
+    left: 15rem;
+
     text-decoration: none;
     color: white;
     margin-right: 50px;
@@ -309,24 +324,35 @@ nav > h1:nth-child(2) {
 }
 
 #fbIcon2 {
+    position: absolute;
+    width: 21px;
     text-decoration: none;
     color: white;
     margin-right: 50px;
 }
 
 #instagramIcon2 {
+    position: absolute;
+    width: 21px;
+    left: 5rem;
     text-decoration: none;
     color: white;
     margin-right: 50px;
 }
 
 #linkedinIcon2 {
+    position: absolute;
+    width: 21px;
+    left: 10rem;
     text-decoration: none;
     color: white;
     margin-right: 50px;
 }
 
 #twitterIcon2 {
+    position: absolute;
+    width: 21px;
+    left: 15rem;
     text-decoration: none;
     color: white;
     margin-right: 50px;
@@ -765,7 +791,7 @@ nav > h1:nth-child(2) {
 
 #skillDescription {
     position: absolute;
-    width: 1000px;
+    width: 1230px;
     height: 196px;
     top: 8rem;
     left: 0;
@@ -785,7 +811,7 @@ nav > h1:nth-child(2) {
 
 #skillList {
     position: absolute;
-    width: 1000px;
+    width: 1230px;
     height: 285px;
     top: 21rem;
     left: 0;
@@ -794,84 +820,31 @@ nav > h1:nth-child(2) {
     margin: auto;
 }
 
-#skillList > ul > li {
+#skillList >div {
     position: relative;
-    top: -4px;
-    display: inline;
-    left: 150px;
-    font-size: 25px;
-    margin: 10px;
+    display: flex;
+    width: 1200px;
+    height: 285px;
     color: white;
     text-decoration: none;
 }
 
-#skillList > ul > li > i {
-    margin-top: 8px;
-
+#skillList > div>div {
+   width: 150px;
 }
 
-#skillList > ul > div {
+#skillList > div > div {
     position: relative;
-    background-color: white;
-    width: 500px;
-    height: 7px;
-    left: 250px;
+
 }
-
-#scale1 {
-    top: -17px;
+#skillList > div > div>i{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-size: 100px;
 }
-
-#scale2 {
-    top: -20px;
-}
-
-#scale3 {
-    top: -20px;
-}
-
-#scale4 {
-    top: -20px;
-}
-
-#scale5 {
-    top: -20px;
-}
-
-#scale6 {
-    top: -20px;
-}
-
-#skillList > ul > div > div {
-    position: relative;
-    background-color: #E74C3C;
-
-    height: 7px;
-    left: 0;
-}
-
-#parameter1 {
-    width: 200px;
-}
-
-#parameter2 {
-    width: 250px;
-}
-
-#parameter3 {
-    width: 150px;
-}
-
-#parameter4 {
-    width: 300px;
-}
-
-#parameter5 {
-    width: 280px;
-}
-
-#parameter6 {
-    width: 100px;
+#skillList > div > div>i:hover{
+    color: #E74C3C;
 }
 
 /*=============================================page 5 css=============================================*/
@@ -1005,21 +978,50 @@ nav > h1:nth-child(2) {
     border-radius: 10px;
     position: relative;
 }
+#prabod{
+    width: 20rem;
+}
+#prabod>div{
+    position: absolute;
+    top: 72%;
+    left: -83%;
+    color: white;
+}
+#wasala{
+    width: 20rem;
+}
+#wasala>div{
+    position: absolute;
+    top: 72%;
+    left: -72%;
+    color: white;
+}
+#heshan{
+    width: 20rem;
+}
+#heshan>div{
+    position: absolute;
+    top: 72%;
+    left: -68%;
+    color: white;
+}
 #teamMatesArea>section>div>img{
     position: absolute;
     left: 0;
     right: 0;
     top: 5%;
+    height: 60%;
+    width: 60%;
+    border-radius: 100%;
+    border: 8px solid #e74039;
     margin: auto;
 }
-
 #teamMatesArea>section>div>pre{
-    font-family: monospace, monospace;
-    font-size: 1em;
+    font-size: 12px;
     color: white;
     position: relative;
     top: 80%;
-    left: -5.8em;
+    left: 2rem;
 }
 /*#teammates > figure {
     position: relative;
@@ -1138,6 +1140,7 @@ nav > h1:nth-child(2) {
     position: relative;
     box-shadow: 1px 1px 3px 1px;
 }
+
 .services>section>div>img{
     position: absolute;
     left: 0;
