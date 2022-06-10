@@ -162,21 +162,18 @@ nav > h1:nth-child(2) {
 .wrapper {
     position: relative;
     top: 21rem;
-    left: 6rem;
+    left: 8rem;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     display: inline-flex;
 }
 
-.wrapper > ul {
+.wrapper > h1 {
     margin-left: 15px;
     height: 90px;
     line-height: 90px;
     overflow: hidden;
-}
-
-.wrapper > ul > li {
     color: #E74C3C;
     font-family: sans-serif;
     list-style: none;
@@ -184,38 +181,9 @@ nav > h1:nth-child(2) {
     font-weight: 500;
     position: relative;
     top: 0;
-    animation: slideing 6s steps(4) infinite;
 
 }
 
-@keyframes slideing {
-    100% {
-        top: -360px;
-    }
-}
-
-.wrapper > ul > li > span {
-    position: relative;
-}
-
-.wrapper > ul > li > span::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #161B36;
-    border-left: 2px solid white;
-    animation-delay: 5s;
-    animation: typing 1.5s steps(20) infinite;
-}
-
-@keyframes typing {
-    100% {
-        left: 100%;
-        margin: 0 -35px 0 35px;
-    }
-}
 
 /*=============================================page 2 css=============================================*/
 .pageTwo {
@@ -242,14 +210,14 @@ nav > h1:nth-child(2) {
     border-style: none;
     position: relative;
     bottom: -5rem;
-    left: 10rem;
+    left: 10%;
 }
 
 #aboutMeSection1 {
     position: relative;
-    width: 45rem;
+    width: 50%;
     top: -21rem;
-    left: 35rem;
+    left: 37%;
     height: 12rem;
     background-color: #161B36;
 
@@ -257,9 +225,9 @@ nav > h1:nth-child(2) {
 
 #aboutMeSection2 {
     position: relative;
-    width: 45rem;
+    width: 50%;
     top: -21rem;
-    left: 35rem;
+    left: 37%;
     height: 12rem;
     background-color: #161B36;
     font-size: 18px;
@@ -554,6 +522,8 @@ nav > h1:nth-child(2) {
 .eduIJSE{
     border-bottom-left-radius: 30px;
     background-color: #242C54;
+    border: 5px solid #242C54;
+    border-right-color: #E74C3C;
     width: 25rem;
     display: inline-block;
     position: absolute;
@@ -564,6 +534,11 @@ nav > h1:nth-child(2) {
     top: 2rem;
     height: 11rem;
 }
+.eduIJSE>img{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
 #eduIJSE {
     position: absolute;
     left: -7rem;
@@ -571,24 +546,17 @@ nav > h1:nth-child(2) {
     margin: auto;
 }
 
-#eduIJSE > img {
-    left: 15rem;
-    top: 6rem;
-    margin: auto;
-    height: 75px;
-    position: absolute;
-}
 
 #eduIJSE > figcaption {
     position: absolute;
-    top: 12rem;
-    left: 4rem;
+    top: 8rem;
+    left: 11rem;
 }
 
 #eduIJSE > h1 {
     position: absolute;
-    top: 13rem;
-    right: -8rem;
+    top: 5rem;
+    right: -18rem;
     font-size: 17px;
 }
 
@@ -596,6 +564,8 @@ nav > h1:nth-child(2) {
 .eduFUTUREips{
     border-bottom-right-radius: 30px;
     background-color: #242C54;
+    border: 5px solid #242C54;
+    border-left-color: #E74C3C;
     width: 25rem;
     display: inline-block;
     position: absolute;
@@ -605,6 +575,11 @@ nav > h1:nth-child(2) {
     margin: auto;
     top: 14rem;
     height: 11rem;
+}
+.eduFUTUREips>img{
+    position: absolute;
+    left: 60%;
+    top: 25%;
 }
 #eduFUTUREips {
     position: absolute;
@@ -622,7 +597,7 @@ nav > h1:nth-child(2) {
 
 #eduFUTUREips > figcaption {
     position: absolute;
-    top: 10rem;
+    top: 11rem;
     padding-bottom: 10px;
     left: -14rem;
     margin: auto;
@@ -630,8 +605,8 @@ nav > h1:nth-child(2) {
 
 #eduFUTUREips > h1 {
     position: absolute;
-    top: 17rem;
-    left: 15rem;
+    top: 9rem;
+    left: 6rem;
     font-size: 17px;
 }
 
@@ -639,6 +614,8 @@ nav > h1:nth-child(2) {
 .eduGINARATHANA{
     border-bottom-left-radius: 30px;
     background-color: #242C54;
+    border: 5px solid #242C54;
+    border-right-color: #E74C3C;
     width: 25rem;
     display: inline-block;
     position: absolute;
@@ -648,6 +625,11 @@ nav > h1:nth-child(2) {
     margin: auto;
     top: 26rem;
     height: 11rem;
+}
+.eduGINARATHANA>img{
+    position: absolute;
+    left: 8%;
+    top: 24%;
 }
 #eduGINARATHANA {
     position: absolute;
@@ -665,15 +647,15 @@ nav > h1:nth-child(2) {
 
 #eduGINARATHANA > figcaption {
     position: absolute;
-    top: 34rem;
+    top: 29rem;
     padding-bottom: 10px;
-    right: -20rem;
+    right: -24rem;
 }
 
 #eduGINARATHANA > h1 {
     position: absolute;
-    top: 34rem;
-    right: -21rem;
+    top: 26rem;
+    right: -31rem;
     font-size: 17px;
 }
 
@@ -681,6 +663,8 @@ nav > h1:nth-child(2) {
 .eduDHARMAPALA{
     border-bottom-right-radius: 30px;
     background-color: #242C54;
+    border: 5px solid #242C54;
+    border-left-color: #E74C3C;
     width: 25rem;
     position: absolute;
     left: 0;
@@ -689,6 +673,11 @@ nav > h1:nth-child(2) {
     bottom: 19rem;
     top: 38rem;
     height: 11rem;
+}
+.eduDHARMAPALA>img{
+    position: absolute;
+    left: 64%;
+    top: 25%;
 }
 #eduDHARMAPALA {
     position: absolute;
@@ -708,13 +697,13 @@ nav > h1:nth-child(2) {
     position: absolute;
     top: 42rem;
     padding-bottom: 10px;
-    right: 14rem;
+    right: 12rem;
 }
 
 #eduDHARMAPALA > h1 {
     position: absolute;
-    top: 47rem;
-    right: -15rem;
+    top: 39rem;
+    right: -6rem;
     font-size: 17px;
 }
 
@@ -722,6 +711,8 @@ nav > h1:nth-child(2) {
 .eduPIYARATHANA{
     border-bottom-left-radius: 30px;
     background-color: #242C54;
+    border: 5px solid #242C54;
+    border-right-color: #E74C3C;
     width: 25rem;
     position: absolute;
     left: 30rem;
@@ -730,6 +721,11 @@ nav > h1:nth-child(2) {
     top: 50rem;
     bottom: 6rem;
     height: 11rem;
+}
+.eduPIYARATHANA>img{
+    position: absolute;
+    left: 12%;
+    top: 33%;
 }
 #eduPIYARATHANA {
     position: absolute;
@@ -747,15 +743,15 @@ nav > h1:nth-child(2) {
 
 #eduPIYARATHANA > figcaption {
     position: absolute;
-    top: 62rem;
+    top: 63rem;
     padding-bottom: 10px;
     right: -30rem;
 }
 
 #eduPIYARATHANA > h1 {
     position: absolute;
-    top: 68rem;
-    right: -27rem;
+    top: 60rem;
+    right: -37rem;
     font-size: 17px;
 }
 
@@ -784,14 +780,13 @@ nav > h1:nth-child(2) {
     background-color: #161B36;
     position: relative;
     font-size: 15px;
-    color: white;
     left: 175px;
     font-family: sans-serif;
 }
 
 #skillDescription {
     position: absolute;
-    width: 1230px;
+    width: 1200px;
     height: 196px;
     top: 8rem;
     left: 0;
@@ -811,7 +806,7 @@ nav > h1:nth-child(2) {
 
 #skillList {
     position: absolute;
-    width: 1230px;
+    width: 1200px;
     height: 285px;
     top: 21rem;
     left: 0;
@@ -835,16 +830,23 @@ nav > h1:nth-child(2) {
 
 #skillList > div > div {
     position: relative;
-
+    border: 5px solid #161B36;
 }
-#skillList > div > div>i{
+#skillList > div > div>pre{
+    position: absolute;
+    top: 64%;
+    left: 42%;
+    font-size: 18px;
+}
+#skillList > div > div>img{
     position: absolute;
     top: 25%;
-    left: 25%;
+    left: 15%;
     font-size: 100px;
 }
-#skillList > div > div>i:hover{
-    color: #E74C3C;
+#skillList > div > div:hover{
+    /*border-bottom-color: #E74C3C;
+    cursor: pointer;*/
 }
 
 /*=============================================page 5 css=============================================*/
@@ -910,22 +912,22 @@ nav > h1:nth-child(2) {
     width: 100%;
 }
 .imageSlider>section>div:nth-child(1){
-    background: url("assets/images/Assignments/project 1.png");
+    background: url("../images/Assignments/project 1.png");
     background-size: cover;
     position: center;
 }
 .imageSlider>section>div:nth-child(2){
-    background: url("assets/images/Assignments/Screenshot (7).png");
+    background: url("../images/Assignments/Screenshot (7).png");
     background-size: cover;
     position: center;
 }
 .imageSlider>section>div:nth-child(3){
-    background: url("assets/images/Assignments/Assignment 2.png");
+    background: url("../images/Assignments/Assignment 2.png");
     background-size: cover;
     position: center;
 }
 .imageSlider>section>div:nth-child(4){
-    background: url("assets/images/Assignments/Screenshot (8).png");
+    background: url("../images/Assignments/Screenshot (8).png");
     background-size: cover;
     position: center;
 }
@@ -981,29 +983,26 @@ nav > h1:nth-child(2) {
 #prabod{
     width: 20rem;
 }
-#prabod>div{
-    position: absolute;
-    top: 72%;
-    left: -83%;
+#prabod>h3{
+    left: 16%;
+}
+#prabod>h4{
+    position: relative;
+    left: 20%;
+    font-size: 281%;
     color: white;
 }
 #wasala{
     width: 20rem;
 }
-#wasala>div{
-    position: absolute;
-    top: 72%;
-    left: -72%;
-    color: white;
+#wasala>h3{
+    left: 31%;
 }
 #heshan{
     width: 20rem;
 }
-#heshan>div{
-    position: absolute;
-    top: 72%;
-    left: -68%;
-    color: white;
+#heshan>h3{
+    left: 26%;
 }
 #teamMatesArea>section>div>img{
     position: absolute;
@@ -1016,12 +1015,13 @@ nav > h1:nth-child(2) {
     border: 8px solid #e74039;
     margin: auto;
 }
-#teamMatesArea>section>div>pre{
-    font-size: 12px;
+#teamMatesArea>section>div>h3{
     color: white;
+    width: 67%;
+    font-size: 21px;
     position: relative;
-    top: 80%;
-    left: 2rem;
+    top: 72%;
+
 }
 /*#teammates > figure {
     position: relative;

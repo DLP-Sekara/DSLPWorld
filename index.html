@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
-    <link href="DSLPWorldCss.css" rel="stylesheet">
+    <link href="assets/styles/DSLPWorldCss.css" rel="stylesheet">
     <link href="assets/css/fontawesome/css/all.css" rel="stylesheet">
     <style>
 
@@ -49,14 +49,15 @@
             </section>
             <h1>Hi There , I Am Lahiru</h1>
             <div class="wrapper">
-                <!--               <div class="static_text">I'm a</div>-->
-                <ul class="dynamic-text">
-                    <li><span>JAVA DEVELOPER</span></li>
-                    <li><span>FREELANCER</span></li>
-                    <li><span>UI DESIGNER</span></li>
-                    <li><span>APP DEVELOPER</span></li>
+                <!-- &lt;!&ndash;               <div class="static_text">I'm a</div>&ndash;&gt;
+                 <ul class="dynamic-text">
+                     <li><span>JAVA DEVELOPER</span></li>
+                     <li><span>FREELANCER</span></li>
+                     <li><span>UI DESIGNER</span></li>
+                     <li><span>APP DEVELOPER</span></li>
 
-                </ul>
+                 </ul>-->
+                <h1 id="textRider"></h1>
 
             </div>
         </section>
@@ -116,70 +117,94 @@
     <section class="pageThree">
         <p id="pageThreeName"><dfn id="3">EDUCATION</dfn></p>
         <div id="mainDiv">
-        <div id="mainLine"></div>
+            <div id="mainLine"></div>
 
-        <div id="circle1"></div>
-        <div id="circle2"></div>
-        <div id="circle3"></div>
-        <div id="circle4"></div>
-        <div id="circle5"></div>
+            <div id="circle1"></div>
+            <div id="circle2"></div>
+            <div id="circle3"></div>
+            <div id="circle4"></div>
+            <div id="circle5"></div>
 
-        <div class="eduIJSE"><figure id="eduIJSE">
-            <img alt="" height="46" src="assets/images/ijse%20icon.png" width="172">
-            <h1>2021</h1>
-            <figcaption>
+            <div class="eduIJSE">
+                <img src="assets/images/icons/digree.png" alt="">
+                <figure id="eduIJSE">
+                    <h1>2021</h1>
+                    <figcaption>
                 <pre>
-                Institute of Software Engineering
-               Bsc(Hons) Computer Science via GDSE
+                  Institute of
+              Software Engineering
+            Bsc(Hons) Computer Science
+                    via GDSE
                 </pre>
-            </figcaption>
-        </figure></div>
-        <div class="eduFUTUREips"><figure id="eduFUTUREips">
-            <img alt="" height="101" src="assets/images/ips%20icon.jpg" width="107">
-            <h1>2020</h1>
-            <figcaption>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="eduFUTUREips">
+                <img src="assets/images/icons/icons8-certificate-100.png" alt="">
+                <figure id="eduFUTUREips">
+
+                    <h1>2020</h1>
+                    <figcaption>
                 <pre>
                     Graphic Design
-
                     Video Editing
-
                     Web Development
-
                     Freelancing
+
+                    Future World IPS
                 </pre>
-            </figcaption>
-        </figure></div>
-        <div class="eduGINARATHANA"><figure id="eduGINARATHANA">
-            <img alt="" height="80" src="assets/images/ginarathana%20tec.png" width="279">
-            <h1>2019</h1>
-            <figcaption>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="eduGINARATHANA">
+                <img src="assets/images/icons/icons8-certificate-100.png" alt="">
+                <figure id="eduGINARATHANA">
+
+                    <h1>2019</h1>
+                    <figcaption>
                 <pre>
                 Diploma in English
+
+            Vocational Training Center
+                    Colombo
                 </pre>
-            </figcaption>
-        </figure></div>
-        <div class="eduDHARMAPALA"><figure id="eduDHARMAPALA">
-            <img alt="" height="109" src="assets/images/dvp%20icon.png" width="127">
-            <h1>2018</h1>
-            <figcaption>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="eduDHARMAPALA">
+                <img src="assets/images/icons/icons8-exam-100.png" alt="">
+                <figure id="eduDHARMAPALA">
+
+                    <h1>2018</h1>
+                    <figcaption>
                 <pre>
                    GCE Advanced Level
-                            in
-                        Sri Lanka
-                </pre>
-            </figcaption>
-        </figure></div>
-        <div class="eduPIYARATHANA"><figure id="eduPIYARATHANA">
-            <img alt="" height="101" src="assets/images/spc%20icon.jpg" width="108">
-            <h1>2015</h1>
-            <figcaption>
-                <pre>
-                    GCE Ordinary Level
-                           in
+
+                  Dharmapala Vidyalaya
+                      Pannipitiya
+
                        Sri Lanka
                 </pre>
-            </figcaption>
-        </figure></div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="eduPIYARATHANA">
+                <img src="assets/images/icons/icons8-book-and-pencil-100.png" alt="">
+                <figure id="eduPIYARATHANA">
+
+                    <h1>2015</h1>
+                    <figcaption>
+                <pre>
+                    GCE Ordinary Level
+
+                 Siri Piyarathana College
+                        Padukka
+
+                       Sri Lanka
+                </pre>
+                    </figcaption>
+                </figure>
+            </div>
         </div>
     </section>
 
@@ -210,28 +235,36 @@
         <section id="skillList">
             <div>
                 <div id="scale1">
-                    <i id="parameter1" class="fab fa-java"></i>
+                    <img alt="" id="parameter1" src="assets/images/icons/java.png">
+                    <pre style="left: 36%;">JAVA</pre>
                 </div>
                 <div id="scale2">
-                    <i id="parameter2" class="fab fa-html5"></i>
+                    <img alt="" id="parameter2" src="assets/images/icons/js.png">
+                    <pre style="left: 12%;">JAVA SCRIPT</pre>
                 </div>
                 <div id="scale3">
-                   <i id="parameter3" class="fab fa-css3-alt"></i>
+                    <img alt="" id="parameter3" src="assets/images/icons/html.png">
+                    <pre style="left: 38%;">HTML</pre>
                 </div>
                 <div id="scale4">
-                    <i id="parameter4" class="fab fa-js-square"></i>
+                    <img alt="" id="parameter4" src="assets/images/icons/css.png">
+                    <pre style="left: 39%;">CSS</pre>
                 </div>
                 <div id="scale5">
-                    <i id="parameter5" class="fab fa-python"></i>
+                    <img alt="" id="parameter5" src="assets/images/icons/php.png">
+                    <pre style="left: 40%;">PHP</pre>
                 </div>
                 <div id="scale6">
-                    <i id="parameter6" class="fab fa-php"></i>
+                    <img alt="" id="parameter6" src="assets/images/icons/node.png">
+                    <pre style="left: 27%;">NODE JS</pre>
                 </div>
                 <div id="scale7">
-                    <i id="parameter7" class="fab fa-php"></i>
+                    <img alt="" id="parameter7" src="assets/images/icons/phython.png">
+                    <pre style="left: 30%;">PYTHON</pre>
                 </div>
                 <div id="scale8">
-                    <i id="parameter8" class="fab fa-php"></i>
+                    <img alt="" id="parameter8" src="assets/images/icons/sql.png">
+                    <pre style="left: 30%;">MY-Sql</pre>
                 </div>
             </div>
         </section>
@@ -254,37 +287,26 @@
 
         <p id="TEAMMATES_name">TEAMMATES</p>
         <section id="teammates">
-           <div id="teamMatesArea">
+            <div id="teamMatesArea">
 
-               <section>
-               <div id="prabod">
-                       <img alt="" height="263" id="prabodPic" src="assets/images/prabod.jpg" width="225">
-                        <div>
-                        <pre style="font-size: 25px">
-                     Dharshana Dasanayake
-                   </pre>
-                        </div>
-               </div>
+                <section>
+                    <div id="prabod">
+                        <img alt="" height="263" id="prabodPic" src="assets/images/prabod.jpg" width="225">
+                        <h3>Dharshana Dasanayake</h3>
 
-               <div id="wasala">
-                       <img alt="" height="263" id="udeshPic" src="assets/images/wasala.jpg" width="225">
-                   <div>
-                       <pre style="font-size: 25px">
-                       Udesh Isindu
-                   </pre>
-               </div>
-               </div>
+                    </div>
 
-               <div id="heshan">
-                       <img alt="" height="263" id="heshanPic" src="assets/images/heshan.jpg" width="225">
-                   <div>
-                   <pre style="font-size: 25px">
-                    Kaveesha Heshan
-                   </pre>
-               </div>
-               </div>
-               </section>
-           </div>
+                    <div id="wasala">
+                        <img alt="" height="263" id="udeshPic" src="assets/images/wasala.jpg" width="225">
+                        <h3>Udesh Isindu</h3>
+                    </div>
+
+                    <div id="heshan">
+                        <img alt="" height="263" id="heshanPic" src="assets/images/heshan.jpg" width="225">
+                        <h3>Kaveesha Heshan</h3>
+                    </div>
+                </section>
+            </div>
         </section>
     </section>
 
@@ -327,42 +349,42 @@
                 </div>
             </section>
         </div>
-       <!-- <a href="https://www.fiverr.com/" target="_blank">
-            <figure id="graphicFig">
-                <img src="https://img.icons8.com/ios-glyphs/90/ffffff/illustrator.png"/>
-                <figcaption>Graphic Design</figcaption>
-            </figure>
-        </a>
-        <a href="https://www.fiverr.com/" target="_blank">
-            <figure id="ui,uxFig">
-                <img src="https://img.icons8.com/ios-glyphs/90/ffffff/windows10-personalization.png"/>
-                <figcaption>UI/UX Design</figcaption>
-            </figure>
-        </a>
-        <a href="https://www.fiverr.com/" target="_blank">
-            <figure id="webFig">
-                <img src="https://img.icons8.com/ios-glyphs/90/ffffff/internet&#45;&#45;v1.png"/>
-                <figcaption>Web Design</figcaption>
-            </figure>
-        </a>
-        <a href="https://www.fiverr.com/" target="_blank">
-            <figure id="appFig">
-                <img src="https://img.icons8.com/ios-glyphs/90/ffffff/uber-mobile-app.png"/>
-                <figcaption>App Design</figcaption>
-            </figure>
-        </a>
-        <a href="https://www.fiverr.com/" target="_blank">
-            <figure id="seoFig">
-                <img src="https://img.icons8.com/ios-glyphs/90/ffffff/combo-chart&#45;&#45;v1.png"/>
-                <figcaption>SEO</figcaption>
-            </figure>
-        </a>
-        <a href="https://www.fiverr.com/" target="_blank">
-            <figure id="seFig">
-                <img src="https://img.icons8.com/ios-glyphs/90/ffffff/code-file.png"/>
-                <figcaption>Software Development</figcaption>
-            </figure>
-        </a>-->
+        <!-- <a href="https://www.fiverr.com/" target="_blank">
+             <figure id="graphicFig">
+                 <img src="https://img.icons8.com/ios-glyphs/90/ffffff/illustrator.png"/>
+                 <figcaption>Graphic Design</figcaption>
+             </figure>
+         </a>
+         <a href="https://www.fiverr.com/" target="_blank">
+             <figure id="ui,uxFig">
+                 <img src="https://img.icons8.com/ios-glyphs/90/ffffff/windows10-personalization.png"/>
+                 <figcaption>UI/UX Design</figcaption>
+             </figure>
+         </a>
+         <a href="https://www.fiverr.com/" target="_blank">
+             <figure id="webFig">
+                 <img src="https://img.icons8.com/ios-glyphs/90/ffffff/internet&#45;&#45;v1.png"/>
+                 <figcaption>Web Design</figcaption>
+             </figure>
+         </a>
+         <a href="https://www.fiverr.com/" target="_blank">
+             <figure id="appFig">
+                 <img src="https://img.icons8.com/ios-glyphs/90/ffffff/uber-mobile-app.png"/>
+                 <figcaption>App Design</figcaption>
+             </figure>
+         </a>
+         <a href="https://www.fiverr.com/" target="_blank">
+             <figure id="seoFig">
+                 <img src="https://img.icons8.com/ios-glyphs/90/ffffff/combo-chart&#45;&#45;v1.png"/>
+                 <figcaption>SEO</figcaption>
+             </figure>
+         </a>
+         <a href="https://www.fiverr.com/" target="_blank">
+             <figure id="seFig">
+                 <img src="https://img.icons8.com/ios-glyphs/90/ffffff/code-file.png"/>
+                 <figcaption>Software Development</figcaption>
+             </figure>
+         </a>-->
     </section>
 
 
@@ -393,16 +415,16 @@
             <br>
             <br>
             <div id="contactIcons">
-            <section id="icons3">
-                <a href="https:facebook.com/dslahirupiyumal99" target="_blank"><i class="fab fa-facebook-square"
-                                                                                  id="fbIcon3"></i></a>
-                <a href="https://www.instagram.com/dslpworld/" target="_blank"><i class="fab fa-instagram"
-                                                                                  id="instagramIcon3"></i></a>
-                <a href="https://www.linkedin.com/in/lahiru-piyumal-7aa78a200/" target="_blank"><i
-                        class="fab fa-linkedin" id="linkedinIcon3"></i></a>
-                <a href="https://twitter.com/lahirupiyumal2" target="_blank"><i class="fab fa-twitter-square"
-                                                                                id="twitterIcon3"></i></a>
-            </section>
+                <section id="icons3">
+                    <a href="https:facebook.com/dslahirupiyumal99" target="_blank"><i class="fab fa-facebook-square"
+                                                                                      id="fbIcon3"></i></a>
+                    <a href="https://www.instagram.com/dslpworld/" target="_blank"><i class="fab fa-instagram"
+                                                                                      id="instagramIcon3"></i></a>
+                    <a href="https://www.linkedin.com/in/lahiru-piyumal-7aa78a200/" target="_blank"><i
+                            class="fab fa-linkedin" id="linkedinIcon3"></i></a>
+                    <a href="https://twitter.com/lahirupiyumal2" target="_blank"><i class="fab fa-twitter-square"
+                                                                                    id="twitterIcon3"></i></a>
+                </section>
             </div>
         </section>
         <section id="messageSection">
@@ -433,6 +455,9 @@
 <footer>
     <small>2021 Lahiru Piyumal All rights Reserved.</small>
 </footer>
+
+<script src="assets/jquery/jquery-3.6.0.min.js"></script>
+<script src="assets/JS%20files/DSLP.js"></script>
 </body>
 
 </html>
