@@ -1,3 +1,5 @@
+//===========common============================================================
+$("#prabod>pre,#wasala>pre,#heshan>pre").css("display","none");
 //===========login page============================================================
 //===========page one============================================================
 let text = ["JAVA DEVELOPER","FREELANCER","UI DESIGNER","APP DEVELOPER"];
@@ -69,13 +71,33 @@ $("#skillList>div>div").mouseover(function() {
 
 $("#prabod,#wasala,#heshan").mouseover(function() {
     $(this).css("background-color","#E74C3C");
+    $(this).css("cursor","pointer");
     $(this).find(" > img").css("border-color","white");
+    $(this).find(" > pre").css("display","block");
+    $(this).find(" > h3").css("top","70%");
+    $(this).find(" > pre").css("top","66%");
 
 }).mouseout(function() {
     $(this).css("background-color","#242C54");
     $(this).find(" > img").css("border-color","#E74C3C");
+    $(this).find(" > pre").css("display","none");
+    $(this).find(" > h3").css("top","72%");
+    $(this).find(" > pre").css("top","68%");
 });
 
 //===========page six============================================================
+$("#graphic,#ui_ux,#web,#seo,#softwareDev,#app").mouseover(function() {
+    $(this).css("background-color","#E74C3C");
+    $(this).css("cursor","pointer");
+    $(this).find(" > pre").css("color","white");
+    $(this).find(" > pre").css("top","67%");
+    $(this).find(" > pre").css("font-size","32px");
+
+}).mouseout(function() {
+    $(this).css("background-color","#161B36");
+    $(this).find(" > pre").css("color","#E74C3C");
+    $(this).find(" > pre").css("top","65%");
+    $(this).find(" > pre").css("font-size","30px");
+});
 //===========page seven============================================================
 

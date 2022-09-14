@@ -74,11 +74,11 @@ nav > h1:nth-child(2) {
 
 .pageOne > img {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 15%;
+    bottom: 25%;
     width: 382px;
     height: 547px;
-    opacity: 70%;
+    opacity: 60%;
 }
 
 #icons {
@@ -873,18 +873,39 @@ nav > h1:nth-child(2) {
 .pageFive > a {
 
 }
-
+#sliderBack{
+    position: absolute;
+    background-color: #242C54;
+    height: 42%;
+    width: 56%;
+    left: 22%;
+    top: 10%;
+    border: 1px solid #242C54;
+   /* border-radius: 4%;*/
+}
+#innerSliderBack{
+    position: absolute;
+    background-color: #161B36;
+    height: 89%;
+    width: 94%;
+    left: 3%;
+    top: 5%;
+    border: 1px solid #242C54;
+    /* border-radius: 4%; */
+    z-index: 0;
+}
 .imageSlider {
     position: absolute;
     left: 0;
     right: 0;
-    top: 10rem;
+    top: 0%;
     margin: auto;
-    height: 400px;
-    width: 760px;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
-
-
+}
+.imageSlider>section>div{
+    border: 15px solid #161B36;
 }
 .imageSlider>section{
     position: relative;
@@ -912,7 +933,7 @@ nav > h1:nth-child(2) {
     width: 100%;
 }
 .imageSlider>section>div:nth-child(1){
-    background: url("../images/Assignments/project 1.png");
+    background: url("../images/Assignments/project2.png");
     background-size: cover;
     position: center;
 }
@@ -941,7 +962,7 @@ nav > h1:nth-child(2) {
     transform: rotate(270deg);
 }
 
-#back:hover, #next:hover {
+ #back:hover, #next:hover {
     color: #E74C3C;
     cursor: pointer;
 }
@@ -953,7 +974,7 @@ nav > h1:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 65vh;
+    top: 72vh;
     position: relative;
     font-family: sans-serif;
     font-style: normal;
@@ -964,7 +985,7 @@ nav > h1:nth-child(2) {
     right: 0;
     width: 80%;
     height: 35%;
-    top: 60%;
+    top: 64%;
     margin: auto;
 }
 #teamMatesArea>section{
@@ -992,17 +1013,39 @@ nav > h1:nth-child(2) {
     font-size: 281%;
     color: white;
 }
+#prabod>pre{
+    position: relative;
+    left: 24%;
+    top: 68%;
+    font-size: 100%;
+    color: white;
+}
+
 #wasala{
     width: 20rem;
 }
 #wasala>h3{
     left: 31%;
 }
+#wasala>pre{
+    position: relative;
+    left: 24%;
+    top: 68%;
+    font-size: 100%;
+    color: white;
+}
 #heshan{
     width: 20rem;
 }
 #heshan>h3{
     left: 26%;
+}
+#heshan>pre{
+    position: relative;
+    left: 24%;
+    top: 68%;
+    font-size: 100%;
+    color: white;
 }
 #teamMatesArea>section>div>img{
     position: absolute;
@@ -1138,7 +1181,6 @@ nav > h1:nth-child(2) {
     background-color: #161B36;
     border-radius: 10px;
     position: relative;
-    box-shadow: 1px 1px 3px 1px;
 }
 
 .services>section>div>img{
@@ -1333,7 +1375,7 @@ nav > h1:nth-child(2) {
     border: 1px solid #242c54;
 }
 #messageSection{
-    left: 0;
+    left: 5%;
     top: 20rem;
     right: 0;
     margin: auto;
