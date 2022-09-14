@@ -4,10 +4,13 @@ This is my first website. This will get my information through and is designed f
 
 ## Screenshots
 
-![](assets/images/ReadmeImg/ss1.jpg)
-![](assets/images/ReadmeImg/ss2.jpg)
-![](assets/images/ReadmeImg/ss3.jpg)
-![](assets/images/ReadmeImg/ss4.jpg)
+![](assets/images/ReadmeImg/1.png)
+![](assets/images/ReadmeImg/2.png)
+![](assets/images/ReadmeImg/3.png)
+![](assets/images/ReadmeImg/4.png)
+![](assets/images/ReadmeImg/5.png)
+![](assets/images/ReadmeImg/6.png)
+![](assets/images/ReadmeImg/7.png)
 
 ### Use the links below to learn more about my profile.
 
